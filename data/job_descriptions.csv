@@ -1,0 +1,573 @@
+﻿description
+"Who We Are
+
+Tractable is an Artificial Intelligence company bringing the speed and insight of Applied AI to visual assessment. Trained on millions of data points, our AI-powered solutions connect everyone involved in insurance, repairs, and sales of homes and cars – helping people work faster and smarter, while reducing friction and waste.
+
+Founded in 2014, Tractable is now the AI tool of choice for world-leading insurance and automotive companies. Our solutions unlock the potential of Applied AI to transform the whole recovery ecosystem, from assessing damage and accelerating claims and repairs to recycling parts. They help make response to recovery up to ten times faster – even after full-scale disasters like floods and hurricanes.
+
+Tractable has a world-class culture, backed up by our team, making us a global employer of choice!
+
+We're a diverse team, uniting individuals of over 40 different nationalities and from varied backgrounds, with machine learning researchers and motor engineers collaborating together on a daily basis. We empower each team member to have tangible impact and grow their own scope by intentionally building a culture centred around collaboration, transparency, autonomy and continuous learning.
+
+What You Will Do
+
+The Data & ML Ops team belongs to a larger group - Dev Foundations, which is focused on building tools and services for our internal customers within Tractable: researchers, product engineers, ops specialists, etc. We have 4 teams in Dev Foundations tackling different aspects of the space: Infrastructure & Security, Analytics, QA and Data & ML Ops. As a Senior ML Ops Engineer in the Data & ML Ops team, you will be collaborating with peer teams in Dev Foundations to provide a solid technical foundation, with product engineering teams building our asset appraisal platform and with researchers creating & iterating on the models which underpin our products.
+
+We are looking for a Senior ML Ops Engineer to build and support systems that enable the core mission of Tractable - to make applied AI possible - by optimising the end-to-end Machine Learning life cycle. The vision of the ML Ops team is to enable researchers to spend 80%+ of their time solving tricky ML problems rather than dealing with engineering/infra/ops challenges.
+
+You will help mature our ML and data platform to a world-class state. You will influence the scope and technical direction as well as champion best practices within the team. You have a relentless focus on user experience (researchers, data scientists and product engineers) and you care deeply about what your team is building to make sure it will have the biggest impact on your users. You will be a strong mentor, nurturing an encouraging and supportive environment to enable the team to do their best work.
+
+The Role
+
+You'll play a key role in developing our ML & data platform from ground up, as part of a small but high-performing team. You will influence the scope and technical direction as well as champion best practices within the team. You will continuously pursue clean code practices and contribute towards overall platform architecture, collaborating with our other Engineering and Product teams.
+
+You Will
+• Work with engineers, researchers and data scientists to build the next generation of Tractable’s ML & data platform
+• Help identify and realise capabilities in our ML & data platform that massively speed up getting research to production across dataset & model management, model training, model serving, labelling, data & ML pipeline orchestration and more
+• Support Research and Product Engineers with tools and processes to enable a seamless data flywheel
+• Deploy and continuously develop robust infrastructure, using best practices for managing infrastructure-as-code
+• Solve cost and performance scalability challenges in both model training and model serving
+• Run, monitor and maintain business-critical, production systems
+• Adopt open-source technologies to best leverage our in-house resources
+• Promote engineering best practices throughout the team
+• Suggest, collect and synthesise requirements to create an effective feature roadmap
+
+Tech Stack
+
+We rely heavily on the following tools and technologies, but we are likely to explore new technologies / frameworks as we are building the platform from ground up. You don't need to have prior experience in all of them, and we actively encourage diverse views on what the best tools for the job are. We’re just keen to know that you're willing to break things, fix things, learn fast and help build a great team that is capable of building a platform that delights our customers.
+• Main Infrastructure: AWS (EC2, S3, MSK, Lambda, StepFunctions, Glue, IAM, Cognito, Systems Manager, CloudWatch, SQS, Route 53, Sagemaker), Apache Kafka (AWS MSK), Kubernetes, Datadog (Metrics, Logs, Synthetics), Pagerduty
+• Main CI/CD: Terraform, Docker, Harness
+• Main Databases: Postgres / RDS, Redis, DynamoDB
+• Main Languages: Python, SQL (Postgres), Bash
+• Main Data stack: AWS MSK, AWS Lambda, AWS Redshift, dbt, Airflow, Airbyte, AWS Glue
+• Main ML stack: Triton, AWS Sagemaker, AWS Lambda, AWS MSK, sync/async APIs, Weights & Biases, Tensorflow, Pytorch, dvc, Dagster/Flyte, Streamlit
+
+We encourage you to drop us a line even if you don’t have all the points above. That’s a lot of different areas of responsibility! We will help you pick them up because we believe that great people come from all walks of life.
+
+What You Need To Be Successful
+
+A strong ML Engineer who is passionate about building platforms that massively reduce lead time from bringing Machine Learning research to production. You would have a solid background in software engineering as well as a good understanding of the difficulties faced by data scientists. A few things we are particularly interested in seeing from you:
+• Great communication skills and collaborative mindset
+• 2+ years of experience in building scalable Machine Learning systems
+• Have experience building and/or managing scalable data infrastructure (data ingestion, data lake, data warehouse, data orchestration)
+• Strong programming experience, from self-contained algorithms to complex object modelling design
+• Worked with Python in a professional environment for 2+ years
+• Experience working with and scaling model training across GPU clusters
+• Experience in building data pipelines and managing data infrastructure
+• Experience deploying and managing infrastructure-as-code
+• Able to design scalable, robust, fault-tolerant system architecture and compare trade-offs (distributed systems experience a plus)
+• Experience building robust, intuitive tooling to support internal users (e.g. common ML libraries, CLIs etc.)
+• Numerical computing experience
+• Cares about team practices / pairing / advocate of CICD
+• Basic ML knowledge, with experience in training computer vision models at scale highly desirable
+
+What’s In It For You
+• Competitive salary
+• Equity
+• Pension scheme
+• Bupa private healthcare (full coverage)
+• Flexible hours & WFH/hybrid setups
+• Learning and Development budget
+• Competitive maternity + paternity leave
+• Regular company office events such as Games Nights, Movie Nights, Lunch & Learns, Monthly Brunch and more
+
+Diversity commitment
+
+At Tractable, we are committed to building a diverse team and inclusive workplace where people’s varied backgrounds and experiences are valued and recognised.
+
+We encourage applications from candidates of all backgrounds and offer equal opportunities without discrimination"
+"We are looking for someone who is ready to help us solve hard and exciting problems as simply and quickly as possible.
+
+You will have the resource and capability to use equipment and/or methods that are unimaginable elsewhere. You will have a substantial sense of urgency around your work, doing whatever it takes to move at a speed commensurate with the time-sensitive nature of plastic pollution and climate change, and importantly, move faster than our competitors. Success at Epoch is building the solution to some of humanity’s greatest challenges, without delay.
+
+You have the opportunity to join a start up at the early stages, work with a passionate group of people, team players with a high-growth mindset and work on some of society’s biggest challenges. We value play, creativity and initiative as much as problem solving, intellectual curiosity and critical thinking. This approach is helping us grow a healthy, sustainable work culture and company.
+
+As a Machine Learning Engineer at Epoch you will:
+
+Drive the strategy for applying machine learning method to a diverse range of experimental datasets across the Epoch Biodesign R&D activities. Working closely with computational and lab biologists, you will be responsible for requirements gathering, prototyping and development of machine learning methods. Experience in the life sciences would be preferred, but primarily the ability to learn quickly and adapt to changing requirements are more important. You will drive forward activities such as:
+• Acting as primary contact with computational and lab biologists to understand their machine learning requirements.
+• Prototyping, developing, and maintaining machine learning methods based on both publicly available and proprietary data.
+• Reporting results from the developed methods in a clear manner that can be understood by wet- and dry-lab biologists and management.
+• Training colleagues in the use of any deployed machine learning methods.
+• Keeping abreast of current machine learning methods and best practices and bringing these into the company.
+
+Qualifications And Experience
+• A degree in mathematics, computer science, or a similar numerical field
+• Strong technical background, including skills in Python and related data science libraries, such as NumPy, SciPy, and pandas
+• Experience in developing machine learning methods using common frameworks such as scikit-learn, PyTorch and Tensorflow
+• Skills in data engineering, cleaning and pre-processing
+• Skills in data visualisation, utilising packages such as matplotlib and plotly
+• Excellent interpersonal skills, with demonstrable evidence of working collaboratively in an interdisciplinary environment
+• Experience with version control systems such as Git
+• An understanding of data security issues
+
+Further skills would be:
+• Experience in applying machine learning in the biotechnology or life science domain
+• Experience with large language models (LLMs)
+• Experience with cloud computing, ideally Google Cloud
+• Skills in automated testing
+• Experience in project management
+• Previous start-up experience.
+
+Benefits And Perks
+
+Epoch Biodesign offers a comprehensive benefits program. At the moment this includes:
+
+Benefits:
+• A generous allowance of 30 days paid holiday (plus the usual 8 bank holidays)
+• Meaningful EMI Share Options
+• A non-contributory pension of 9% employer contribution
+• Flexible working around the core times of 10am to 4pm
+• Cycle to work scheme
+• Tech scheme
+• Optional private medical insurance with Vitality
+• Group Income Protection
+• Group Critical Illness
+• The opportunity to be part of building something remarkable
+
+On-the-job perks
+• Complementary fresh fruit, coffee, tea and snacks
+• Various staff social activities
+• Onsite gym
+
+And we are always in the process of reviewing and implementing further benefits and on-the-job perks"
+"Company Description
+
+Source BioScience Limited is an international provider of integrated state of the art Laboratory Services and Products. Headquartered in the UK, with offices in UK, Europe and the USA, Source BioScience is a fully owned subsidiary of SourceBio International plc.
+
+Job Description
+
+We’re looking for a Machine Learning (ML) engineer to assist with several on-going AI driven enhancements as well as to take ownership of the production of new models, frameworks and solutions within a rapid growth phase as the company integrates with hospitals across the country to deliver a next-gen digital pathology service. This remote role forms a core part of a development team within an exciting phase of rapid advancement and growth within the sector where Source LDPath is a leading driver of innovation and performance.
+
+As part of the highly collaborative role, you will be working within a software development team and with our lead developer for machine learning/AI, where you will be collectively responsible for the design, implementation and deliverance of ML solutions within the digital pathology space of the company. There are currently a number of areas that are actively being developed and utilised within a production environment – the distinctions are in the area of Whole Slide Image (WSI) analysis (computer vision, classification, deep-learning) and within NLP utilising transformer-based models to utilise for NER, as well as utilising knowledge graphs, to extract information from input forms, diagnostic (and in the near future, potentially synoptic) reporting as well as other free flowing clinical text.
+
+The role also covers day-to-day involvement in other software engineering tasks for other aspects of deployed software as the team work across areas – which would include work on the new iteration of the company’s digital pathology flagship solution that has many layers of interconnectivity and interoperability including providing connectivity to-and-from hospital systems. This work can cover the entire life cycle of software development so the ideal candidate will need to be experienced across disciplines. The role will involve working on software development for the main digital pathology solutions and integration with them, as well as the specific machine learning needs of the job so any potential candidate will need to be comfortable working across disciplines – however, as growth continues, it is expected that the role will pivot towards the designing and implementation of ML solutions primarily.
+
+The ideal candidate will be experienced and have worked as a machine learning engineer, software engineer or in a related role. The main environment is within AWS so experience of working with cloud platforms, especially within a machine learning or data science context, is very desirable.
+
+The ideal candidate for the role should have experience of machine learning, data science, as well as DevOps and/or software engineering or development and will need to demonstrate practical experience. The role will require working within a team with rapidly growing responsibility and reach, so any candidate will need to be highly collaborative, an influential communicator and the capability to work on tight deadlines. Experience of working on digital health and/or pathology solutions is highly advantageous.
+
+The role will require working or interacting on a range of non-ML solutions including modular software designed for the flagship system and related components, including but not limited to, lab management, reporting, integration, financial software connectivity, mobile applications, web applications, APIs both internal and external such as interfacing with NHS Trusts or nationwide interfaces or for specific clients/integrations.
+
+The integration models work on a range of interoperability but primarily using HL7/FHIR, so any knowledge or experience in healthcare interoperability is advantageous, as it drives connectivity to send and receive clinical, diagnostic and digital information including digital slides.
+
+This role involves pushing the boundaries of medical imaging and text AI within a high-volume context, real world settings, working with a large number of clients and internal tools to deliver impact across the business and to drive innovation in digital pathology.
+
+About The Role:
+
+The following qualities are what we are seeking for the role and how they would relate to their daily activities.
+• Designing and implementation of ML based frameworks and solutions. The ML engineer would work with the lead developer for machine learning on designing and implementing required solutions. This process involves working with stakeholders to identify key requirements, deciding on key architectural and design decisions, development and testing, and then finally deployment within a production cloud environment. This would involve querying both large volume image data as well as other sources of data such as reports and clinical/diagnostic data extracted from messaging and databases (Postgres/SQL).
+• Working on flagship software and modular components. The role will also involve work in more traditional software release settings initially to work on the company’s flagship software in digital pathology which involve work in a cloud-based environment potentially on both back-end and front-end components, as well as creation of, and interfacing with existing, APIs and other integrations.
+• Data science and analytics. The role has capability for expansion into data science in terms of helping to create robust reporting and understanding across the area of the business such as helping to create analytical dashboards and query tools for front end users to drive context-driven understanding of the data.
+• Working within an evolving CI/CD and responsive environment. The role will involve work in cloud-based environments, and by the nature of the software, will work on iterative releases.
+
+Qualifications
+
+The following are notes relating to required elements for potential candidates and description of ideal qualities.
+• Effective, analytical and methodical designer. The role will require someone with a strong background in analytical thinking, techniques and the ability to break down complex problems. The ideal candidate will have a proven record of working on complex technical projects, utilising a range of techniques to potentially drive their thinking and approach to design, being able to integrate unique elements of healthcare and in understanding the needs of solutions within the space.
+• Experienced data science, mathematical or big data skills. The role will require working with large, and complex data sets, including large volumes of free text and images, including a variety of formats and different levels of classification, metadata and related information. Candidates will need to be comfortable with dealing with a range of data sources, pre-and-post processing of data as well as strong understanding of analytical skills.
+• Problem-solver. The development of any complex project can throw up a range of problems, potentially in a fast-paced environment with demanding deadlines. These problems can occur in the successful delivery of a project at any stage and with any stakeholders, so the engineer should be comfortable in helping to work through problems and to engage in removal of blockers and the implementations.
+• Thorough and meticulous worker. The engineer will need to work across a range of software solutions and environments and will therefore need to be detailed and thorough in their working to ensure the highest levels of efficiency and safety while maintaining accurate records and collaboration within the development team – the team encompasses not just other engineers but will also interface with a business analyst, support staff, junior developers and with the leads for digital and cellular pathology within the business daily as well as a range of internal and external stakeholders.
+
+As part of the development team, the main areas that the successful candidate will be involved in will be the developmental role where they will initially be working on:
+• The flagship software (LIMS2) and related products
+• On-going production machine learning models (NER from text data and image analysis of scanned slides relating to QC of slide quality)
+• Working on designing new ML models, frameworks and solutions as required by the needs of the business and end-users
+
+Ideal candidates should be comfortable working on both text and image based ML models, but experience is highly advantageous in either. The role will require working with, improving and implementing models across both domains.
+
+Role Requirements:
+
+Essential Criteria:
+
+Candidates will be required to have the following:
+• At least 3 years of experience working in a professional software development environment with experience in Python, C/C++ and C# and/or a Masters/PhD in a relevant field with good development skills
+• Database/data management skills including SQL
+• Experience of algorithm development, implementation and optimisation (while understanding/working to platform constraints)
+• ML data acquisition and data management experience
+• Experience in working with complex software and tech stacks
+• Excellent problem-solving skills.
+• Ability to work to deadlines.
+• Self-disciplined and efficient, with a flexible and proactive nature.
+• Excellent communication and collaboration skills.
+• Strong workload and prioritisation planning skills.
+• Ability to own and lead development from inception to deployment.
+• Capable of translating high-level direction into design and implementation.
+• Being able to work efficiently in a team environment as well as individually.
+• Strong analytical skills
+• Highly motivated and driven individual.
+
+Desirable Criteria:
+
+These are criteria that will give candidates an edge, but they are not strictly required:
+• Previous experience in healthcare software development/projects – especially with AWS
+• Previous experience in deep and or reinforcement learning, including transformers
+• Knowledge of healthcare interoperability, HL7/FHIR or any other protocols
+• Working with large scale real-time systems, compression and optimisation
+• Data science skills and analytics including backtesting, working with stochastic models in deep learning,
+• Experience with classification modelling in digital pathology image analysis, CNNs, classifiers of bio image analysis and other related areas
+• Clinical, diagnostic or healthcare related NLP experience
+
+Additional Information
+
+Benefits:
+• Pension
+• Income Protection
+• Death in Service
+• Employee Assistance Programme
+• Medicash health cash plan
+• Shopping & leisure discount portal
+• Virtual GP Service
+• Prove Yourself health and wellbeing resources
+• SkinVision App
+• Able Futures Mental Health support
+• 33 days holiday (inclusive of bank holidays)
+• An extra day off on your birthday
+• Cycle to work scheme
+• Discounted private healthcare
+
+Candidate must have proof of their right to work in the UK"
+"Location: London, England, United Kingdom
+
+Salary: Competitive
+
+Permanent
+
+ML Ops Engineer – London, UK – £80,000 Base salary + Strong EMI Options – Opportunity to work with a rapidly growing Deep Tech start-up
+
+We are working with a rapidly growing Deep Tech AI scaleup based in London as they go into an exciting new stage of expansion! The company is currently looking to expand their MLOps Engineering function and add another experienced member to the team due to their recent success in fundraising rounds
+
+They are on the lookout for an ML Ops Engineer to collaborate with cross-functional teams to ensure scalability and provide vital support on issues related to PyTorch.
+
+An ML Ops Engineer will be recognised and rewarded by a business that is dedicated to investing in its employees.
+
+The Opportunity
+
+As an ML Ops Engineer. your responsibilities will involve cross-functional work throughout the tech division of the company, and tight collaboration with the Head of Engineering primarily focusing on MLOps.
+
+Responsibilities
+• Maintain and improve infrastructural elements that are essential to production and research.
+• Create automations that improve the productivity of creating and implementing machine learning models.
+• Diagnose and resolve PyTorch-related problems and bottlenecks.
+• Adopt DevOps procedures to guarantee testing, quality assurance, and the effective distribution of machine learning models.
+• Assist the current machine learning stack by offering technical know-how and guaranteeing its smooth functioning.
+
+Requirements
+• BSc Degree in a STEM field.
+• 3+ years’ experience in Machine Learning or Software.
+• Solid knowledge of DevOps tools, such as Docker and K8s.
+• Practical experience writing Python programs at the production level.
+• Driven to work in an environment that is start-up or scaleup and provides opportunities for ongoing learning and growth."
+"We are looking for a MLOps Engineer with prior experience in working with Data Scientists to ensure a smooth transition of models from development to production. Test. Deploy. Maintain. Monitor.
+
+The opportunities to be a part of something totally new across ML, traditional AI and GenAI are virtually unlimited.  This role is part of Intapp Cloud Engineering organization responsible for Cloud Architecture, Cloud Security, Networking, CICD and Cloud Operations.
+
+As an integral part of our team, you will not only need to tackle operational challenges at every layer of the system infrastructure, but also set up essential tools like Spark, Databricks, Snowflake, Kubernetes, and Kafka for data science infrastructure. 
+
+What you will do:
+• Collaborate with stakeholders to define MLOps strategies aligned with business objectives and technical requirements. Assess current infrastructure, processes, and tooling to identify gaps and opportunities for MLOps implementation.
+• Design, Develop, and Implement end-to-end ML deployment pipelines for model training, perform validation, deployment, and monitoring. Automate data ingestion, feature engineering, model training, and do evaluation processes using tools like Apache Airflow, Kubeflow, or MLflow.
+• Architect and deploy scalable infrastructure for ML workloads using cloud platforms and containerization technologies (e.g., Docker, Kubernetes).
+• Implement model monitoring and logging solutions to track model performance, data drift, and model drift in production.
+• Perform Integration and Deployment (CI/CD), Establish CI/CD pipelines for automated testing, validation, and deploy ML models using tools like Jenkins, Azure DevOps.
+• Implement version control and model versioning practices to manage changes and updates to ML models.
+• Implement security best practices for securing ML infrastructure, data, and models in compliance with regulatory requirements. Establish governance policies and access controls for managing and monitoring ML artifacts and resources.
+• Provide training and mentorship to data scientists, engineers, and stakeholders on MLOps practices, tools, and methodologies. Foster a culture of collaboration and continuous improvement in MLOps adoption across the organization.
+
+What you will need:
+• 3-4 years of experience in data engineering, DevOps, or related field.
+• Proven experience with Azure Machine Learning, Azure Data Factory, and Azure DevOps.
+• Familiarity with machine learning concepts and model training pipelines.
+• Strong understanding of CI/CD best practices and automation tools.
+• Excellent communication and collaboration skills.
+• Ability to work independently and as part of a cross-functional team.
+
+What you will gain at Intapp:
+
+Our culture at Intapp emphasizes accountability, responsibility, and growth. We support each other in a positive, open atmosphere that fosters creativity, approachability, and teamwork. We’re committed to creating a modern work environment that’s connected yet flexible, supporting both professional success and work-life balance. In return for your passion, commitment, and collaborative approach, we offer:
+• Competitive base salary plus variable compensation and equity
+• Generous paid parental leave, including adoptive leave
+• Traditional comprehensive benefits, plus:
+• Generous Paid Time Off
+• Tuition reimbursement plan
+• Family Formation benefit offered by Carrot
+• Wellness programs and benefits provided by Modern Health
+• Paid volunteer time off and donation matching for the causes you care about
+• Home office stipend
+• Opportunities for personal growth and professional development supported by a community of talented professionals
+• An open, collaborative environment where your background and contributions are valued
+• Experience at a growing public company where you can make an impact and achieve your goals
+• Open offices and kitchens stocked with beverages and snacks
+
+Intapp provides equal employment opportunities to all qualified applicants and will make hiring decisions without regard to race, color, sex, sexual orientation, gender identity or expression, religion, national origin or ancestry, age, disability, marital status, pregnancy, protected veteran status, protected genetic information, political affiliation, or any other characteristic protected by federal, state or local laws. All offers are contingent upon passing a criminal history and other background checks if applicable to the position.
+
+Please note: Intapp will not hire through text message, social media, or email alone. We will never extend a job offer unless you have been contacted directly by an Intapp recruiter and have participated in the interview process which will generally consist of 3 or more virtual or in person meetings. Please note that Intapp only uses company email addresses, which contain “@intapp.com” or “@dealcloud.com” to communicate with candidates via email. Intapp will never ask for financial information of any kind or for any payment during the job application process. We post all legitimate job openings on the Intapp Career Site at https://www.intapp.com/working-at-intapp/. If you believe you were a victim of such a scam, you may contact your local authorities. Intapp is not responsible for any claims, losses, damages, or expenses resulting from scammers"
+"MLOps Engineer, MLOps Team
+
+We have recently embarked on a transformative journey in the realm of advanced analytics, venturing into untapped territories across consumer engagement, supply chain, merchandising, and manufacturing domains. Our focus is on cultivating in-house expertise in areas such as personalization & recommendation, forecasting models, and trend analysis, aiming to elevate our innovation and customer satisfaction to unprecedented heights.
+
+As an MLOps Engineer, you will play a crucial role in designing, developing, and maintaining the infrastructure and platform essential for scaling our machine learning systems efficiently from experimentation to production. Your contribution will be pivotal in enabling and automating data-driven decision-making processes, utilizing cutting-edge techniques and ensuring the seamless integration of machine learning models into our operational workflows.
+
+Top of Form
+
+Bottom of Form
+
+Responsibilities:
+• Design, implement and maintain the ML platform and infrastructure required for ML systems to scale
+• Facilitate an efficient ML route to live from experiment to production.
+• Develop and deploy scalable tools and services to handle machine learning training and inference
+• Identify and evaluate new technologies to improve performance, maintainability, and reliability of ML systems
+• Apply software engineering rigor and best practices to machine learning, including CI/CD, automation, etc.
+• Support model development, with an emphasis on auditability, versioning, and data security
+• Communicate with product team and data scientists and machine learning engineers to build requirements and track progress
+
+Qualifications:
+• Experience building end-to-end systems as a Platform Engineer, DevOps Engineer
+• Strong software engineering skills in complex, multi-language systems
+• Fluency in Python
+• Experience working with Infrastructure as Code, e.g. Terraform
+• Experience working with cloud computing and database systems, such as Databricks
+• Experience building custom integrations between cloud-based systems using APIs
+• Experience developing with containerisation (e.g Docker) and orchestration Kubernetes in cloud computing environments
+• Familiarity with one or more data-oriented workflow orchestration frameworks (KubeFlow, Airflow, Argo, etc.)
+• Ability to translate business needs to technical requirements
+• Strong understanding of software testing, benchmarking, and continuous integration
+• Exposure to machine learning methodology and best practices
+
+Preferred but not must have:
+• Exposure to deep learning approaches and modeling frameworks (PyTorch, Tensorflow, Keras, etc.)
+
+Education & Experience:
+• 2–5 years experience building production-quality software.
+• Bachelors or Masters degree and/or equivalent professional experience
+
+About Pandora
+
+Established in 1982, Pandora designs, manufactures and markets hand-finished jewellery made from high-quality materials at affordable prices. Pandora’s products are available in more than 100 countries on six continents through more than 6,500 points of sale, including around 2,500 concept stores.
+
+Headquartered in Copenhagen, Denmark, Pandora employs 32,000 people worldwide and crafts its jewellery at two LEED certified facilities in Thailand, using only recycled silver and gold. The company plans to be carbon neutral by 2025 and has joined the Science Based Targets initiative to reduce emissions across its full value chain. Pandora is listed on the Nasdaq Copenhagen stock exchange and generated a revenue of DKK 28.1 billion in 2023. 
+
+At Pandora, we believe that creating an inclusive and diverse workplace and reflecting societal diversity in our customer engagement is essential to delivering on our company purpose: to give a voice to people’s loves. We dedicate ourselves to fostering, cultivating and preserving a culture of inclusion and diversity where everyone feels respected and valued.
+
+What can we offer you?
+
+You will be joining the team at our brand-new London Digital Hub, which is located a stone’s throw from London’s iconic Oxford Street, at the heart of the city. The London Hub is growing at a faster pace than ever, and your role will be part of the first waves of new, exciting talents we are introducing to the team. At the London Hub, we like to keep things flexible – this hybrid role is an example of that, with two days working from the office and three days working from home, so you can choose what works for you.
+
+Our commitment to unforgettable career progression is just the start. We offer a competitive rewards package that is second to none.
+
+Our generous benefits package includes:
+• A highly competitive salary with regular salary reviews
+• Generous bonus scheme
+• Private healthcare
+• Choice of lunch on us, delivered to you whenever you are in the office!
+• Early finish Fridays (weekends with Pandora start every Friday at 3pm!)
+• 55% employee discount
+• 25 days annual leave (plus bank holidays)
+• Buy/sell holiday options
+• Celebrate your birthday with a day off to celebrate!
+• Pandora Perks: access our exclusive online platform provided by Reward Gateway, where you’ll have access to: Discounts on retail brands, cinema tickets, holidays, gym memberships and more
+• Wellness Hub: videos to help you lead a healthy lifestyle
+• Employee Assistance Programme: a completely confidential, free, counselling phone line open 24/7, all year round
+• Recognition programme: celebrate and share achievements with the wider business
+• At Pandora we love a party! Especially at Christmas, when you will receive an extra special gift
+
+If you are looking for a new challenge, come and craft the incredible with us"
+"Full job description
+Do you want to influence the lives of millions of people every day?
+
+Do you want to be part of a growing digital publishing company that will become one of the largest disseminators of knowledge in the world?
+
+If you answered yes to those questions, you may be the person we're searching for.
+
+We create original infotainment content published online to multiple digital assets in multiple languages. In a few years, we've accrued over a billion views and 25 million+ subscribers. We're perfectly positioned to become largest disseminator of knowledge in the world. In fact, we're probably one of the largest already. Our platforms can be viewed here: www.beamazed.media
+
+We need a software engineer to work in our growing, dynamic team. We are building internal products to help our team perform, execute and excel at their job. These tools integrate with various social media APIs to help us track and extract data from our content which help to inform our future content pipeline as well as optimise our current library.
+
+We are looking for an entrepreneurial mindset to optimise our company’s internal and external performance through building internal products. This will span from building internal products for our teams’ workflows to implementing OpenAI and image generation web APIs.
+
+We pride ourselves on bringing innovation, creativity and experience to everything that we do.
+
+You must be organised to ensure deadlines are met, and willing to take on new challenges. Our work is seen by millions of people each day all around the world, so your work will have a massive impact. You should be looking for more than just a job. You should aspire to lead and own a media company one day as this position holds massive future potential for growth.
+
+Your role will involve:
+
+Developing our web application written in Javascript and NextJS;
+Implementing backend machine learning and data services, and integrating them with our web application.
+Suggesting and leading internal tools for our team to use that will aid them in performing their job efficiently;
+Problem solving, liaising and communicating with the team ways in which technology can be applied intelligently to our work pipeline
+Fixing any errors that arise with our Contentful CMS
+Ideal candidates should demonstrate:
+
+Creative problem solving skills, be open-minded and willing to collaborate with developers and other members of staff.
+Communication skills to explain complicated solutions to all levels within a business.
+A self-starter attitude with a diverse array of interests and a thirst for knowledge
+A creative spark with a proven ability to think outside of the box
+You have the experience and ability to document requirements and specifications.
+You MUST have the following skills:
+
+Production level Python, including building web-based backends and APIs
+Building and architecting web-apps using suitable frameworks
+Designing, implementing, and deploying full-stack web applications
+Quantitative degree from a top university
+The following is DESIRABLE, not essential:
+
+Experience with Node.JS to a production level
+Familiarity with various machine learning APIs
+An understanding of machine learning techniques
+Benefits:
+
+Making a serious impact from day one. We're an agile company at the forefront of digital content consumption, and your work will impact millions of people per day.
+A great office located in Shoreditch right by Old Street Roundabout.
+Competitive salary based on skills and experience
+5 days per week, 9am-6pm with performance-related bonuses
+Social office environment located right by silicon roundabout. Dog friendly, with free coffee/tea and regularly scheduled events with other companies sharing our building.
+Significant opportunities for growth. We are looking for a senior developer to become a key and pivotal part of our team, ample to grow this segment of our company and lead others in the future.
+Job Types: Full-time, Permanent
+
+Salary: From £70,000.00 per year
+
+Benefits:
+
+Casual dress
+Company events
+Company pension
+Cycle to work scheme
+Flexitime
+Work from home
+Schedule:
+
+8 hour shift
+Monday to Friday
+Overtime
+Supplemental pay types:
+
+Bonus scheme
+Performance bonus
+Education:
+
+Bachelor's (preferred)
+Work authorisation:
+
+United Kingdom (required)
+Ability to Commute:
+
+London (required)
+Ability to Relocate:
+
+London: Relocate before starting work (required)
+Work Location: Hybrid remote in London"
+"Full job description
+Company Description
+
+In January 2023, Yieldify was acquired by Epsilon (part of the Publicis Group). The Yieldify platform will now increase performance and benefits over time as it is integrated with Epsilon’s industry-leading CORE ID. As part of this new era for Yieldify, we are growing our teams to address our core markets in North America, Europe, Australia and Southeast Asia. Yieldify needs talented people who want a career-making opportunity, are performance-driven, and thrive in a dynamic culture of openness, collaboration and innovation.
+
+Yieldify is a fast-growing leader in website personalization with over 1,000 customers worldwide. Top consumer brands like Adidas, Coach, Lacoste, L'Oréal and The North Face rely on Yieldify’s platform and services to make personalized ecommerce experiences easy, scalable and profitable. We do this by combining our end-to-end service and proprietary technology with deep industry expertise to deliver significant onsite conversion and revenue impact.
+
+
+Job Description
+
+We’re looking for a Full-stack Software Engineer to join our London team as part of the Experiences Squad - we want someone who thrives in a fast-paced environment, someone who wants to make a positive impact to their environment and someone with a mentality of self-growth and continuously strives to learn new things.
+
+Our Engineering team is a high performing, highly motivated and tech-enthusiastic team based in London. We ship code into production on a weekly basis; fostering a continuous delivery mentality, paired with CI systems, enables us to release new features to customers regularly.
+
+As an engineer in the Experiences Squad, you will bring a first-class UX to our Yieldify Conversion Platform increasing Yieldify’s reach. The Experiences Squad’s responsibility spans across several features and state of the art codebases such as our Platform authentication, Yieldify Experience Builder and Renderer.
+
+
+Your code will be used by thousands of large ecommerce brands, from digital marketers to CXOs, to configure and analyse personalized website experiences. To date over 180,000 experiences have been created and rendered via the Yieldify Conversion Platform reaching 400 million+ shoppers across the web. As part of the Platform squad, you will extend Yieldify’s reach even further!
+
+You’ll love this role if:
+
+You thrive in agile environments.
+You are team spirited and look to actively contribute to the shaping of product, processes and share your knowledge with the people around you.
+You love variety - our engineers rotate teams so that we can learn from each other.
+You are always striving to improve yourself – we're looking for engineers who can be happy working across many layers on Full stack services.
+In this role you will also:
+
+Research, test and implement new technologies, software and services.
+Communicate with stakeholders and Product team.
+Plan, communicate and execute the implementation of new product features.
+Engage in inter-team discussion and collaboration.
+Analyse our data to produce valuable insights.
+We’re looking for someone with:
+
+3+ years of commercial software engineering experience.
+Experience with Node.js & TypeScript.
+Experience building REST APIs.
+Past exposure to scrum/agile software development processes.
+Preferred:
+Experience with React.
+Our tech stack includes:
+
+Typescript both front-end & back-end (with Node.js)
+We use Angular & React with Tailwind
+AWS (Lambda, SNS/SQS, Kinesis, S3, DynamoDB, Redis)
+Postgres
+Jenkins
+Docker
+Kubernetes
+
+Additional Information
+
+Epsilon always puts people first. Everything we do is done as a team, with integrity and accountability. We focus on what works and what’s right, not what’s easy and accepted. When you’re one of us, you run with the best. You’re part of a company with industry-leading technology, with the opportunity to work on projects for some of the world’s biggest brands. Our people have the talent, tools and passion to do epic things together—for our clients, for consumers and for our community.
+
+Great People Deserve Great Benefits We know that we have some of the brightest and most talented employees in the world, and we believe in rewarding them accordingly. If you work here, expect competitive compensation, a great benefits package and endless opportunities to advance your career.
+
+We offer hybrid working opportunities, with our office space located in the Iconic Television Centre, White City.
+
+As part of our dedication to enhance our inclusive and diverse workforce, Epsilon is committed to equal access to opportunity for people without regard to race, age, sex, disability, neurodiversity, sexual orientation, gender identity, pregnancy and maternity, marriage and civil partnership or religion or belief. We are committed to providing reasonable adjustments for candidates in our application process
+
+#LI-TF1
+
+REF221712K
+
+"
+"Full job description
+About the role
+As an Android Software Development Engineer, you’ll be working in an agile team of industry leading engineers upon Tesco’s customer facing Android application. Working with Product Managers, you will be responsible for the future direction of the products that we build, solving problems and developing new features through quality, scalable, performant and maintainable technical solutions. The solutions that you will be responsible for will have a global reach, impacting millions of customers.
+
+You’ll be a passionate, pragmatic Android Software Development Engineer with an inquisitive mind who is motivated to make change for the better and most importantly put our customer first. You’ll enjoy working as part of a team and be a keen problem solver. Comfortable with modern engineering practices and mobile development tooling and technologies you’ll use innovation to improve the customer experience and efficiency of engineering teams.
+
+You will be responsible for
+We love to work with smart people who have a strong sense of ownership and strong engineering mindset. You provide mobile perspective and context for technology choices. You’re up to the challenge of device and mobile network limitations, device fragmentation, and other mobile development curve balls. You are motivated to tackle ambiguous situations with new technologies to rapidly produce prototypes. You outline paths from prototype to product. You are a technical leader for your team. You contribute to the professional development of colleagues, improving their technical knowledge and the engineering practices on your team.
+
+You will need
+We are looking for people who have a passion for Technology. You will likely have made open source contributions and have a Github account. You will demonstrate experience of different platforms and technologies. We expect to see some or all of the following:
+
+Experience architecting complex mobile applications
+5+ years of commercial software development experience in Java/Kotlin
+BS/MS in Computer Science or equivalent
+Firm understanding of software development principles, capabilities and limitations of mobile platforms
+Passion for mobile development. We would love to hear about apps you’ve developed.
+Understanding and exposure to integrating REST API endpoints
+Strong experience and understanding of industry standard mobile accessibility
+Experience in full development life cycle; design, coding, test, build, QA, deployment and maintenance
+Exposure to the DevOps model
+Experience in Lean and Agile environments and understanding of principles behind methodologies such as: BDD, ATDD and TDD
+A strong team player with the ability to influence and lead stakeholders when necessary
+Demonstrable ability to self-manage, be proactive, take ownership, build relationships and drive solutions through from inception to production
+#LI-SN1
+
+About us
+Our vision at Tesco is to become every customer's favourite way to shop, whether they are at home or out on the move. Our core purpose is ‘Serving our customers, communities and planet a little better every day’. Serving means more than a transactional relationship with our customers. It means acting as a responsible and sustainable business for all stakeholders, for the communities we are part of and for the planet.
+
+We are proud to have an inclusive culture at Tesco where everyone truly feels able to be themselves. At Tesco, we not only celebrate diversity, but recognise the value and opportunity it brings. We're committed to creating a workplace where differences are valued, and make sure that all colleagues are given the same opportunities. We’re proud to have been accredited Disability Confident Leader and we’re committed to providing a fully inclusive and accessible recruitment process. For further information on the accessibility support we can offer, please click here.
+
+We’re a big business and we can offer a range of diverse full-time & part-time working patterns across our many business areas, which means that we can find something that works for you. We work in a more blended pattern - combining office and remote working. Our offices will continue to be where we connect, collaborate and innovate. If you are applying internally, please speak to the Hiring Manager about how this can work for you - Everyone is welcome at Tesco.
+
+What’s in it for you
+We’re all about the little helps. That’s why we give our wonderful colleagues bags of benefits. Including wellbeing services, an award-winning pension scheme and much, much more, our colleague reward package keeps on giving. And helps make every day a little better for you and your family. These include but are not limited to:
+
+Annual bonus scheme of up to 20% of base salary
+Holiday starting at 25 days plus a personal day (plus Bank holidays)
+Buy holiday salary sacrifice scheme (for salaried roles)
+Private medical insurance
+Retirement savings plan - save between 4% and 7.5% and Tesco will match your contribution
+Life Assurance - 5 x contractual pay
+26 weeks maternity and adoption leave (after 1 years’ service) at full pay, followed by 13 weeks of Statutory Maternity Pay or Statutory Adoption Pay, we also offer 4 weeks fully paid paternity leave
+The right to request flexible working from your first day with us
+Free 24/7 virtual GP service, Employee Assistance Programme (EAP) for you and your family, free access to a range of experts to support your mental wellbeing
+A Colleague Clubcard for you & a family member (after 3 months of service), giving you access to lots of discounts in-store & online
+Great colleague deals and discounts, saving you money on everyday purchases, eating out and utility bills for the home
+Access to our colleague networks providing a space for colleagues to come together from a range of backgrounds. For more information about our colleague networks please click here
+Opportunities to get on - take advantage of our ongoing learning opportunities and award-winning training, to help you achieve the job and career you want
+Click Here to read more about the full range of benefits we have available for our colleagues"

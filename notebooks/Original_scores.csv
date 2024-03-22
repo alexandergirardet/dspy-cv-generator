@@ -1,0 +1,1773 @@
+,original_resume,job_description,score,skill_score,skill_rational,educational_score,educational_rational,cultural_score,cultural_rational,professional_score,professional_rational
+0,"English
+French
+Alexander Girardet
+Data Engineer
+Skills
+Python 
+BigQuery 
+Docker 
+SQL / NoSQL
+Scrapy 
+Langchain
+PyTorch 
+Git
+Looker
+Java
+dbt
+Kafka
+Airflow
+Vertex AI 
+GitHub actions 
+Time Series Analysis 
+NLP Analysis
+Apache Dataflow
+Languages
+Work Experience
+Projects
+Developed a predictive UK rental pricing bot using geo, image and text data,
+achieving an RMSE of 3500 on yearly rental prices 
+Utilized transfer learning for image models with PyTorch that determined the
+indoor and outdoor visual condition of properties 
+Created a end to end Data extraction, feature engineering and model
+inference system built with monitoring and MLOps standards. 
+Quantitative Real Estate Pricing System
+Quantitative Finance Thesis performing NLP analysis in determining the impact
+of Reddit sentiment on next day price movements of stocks 
+Extracted, validated and pre-processed 650,000 Reddit posts over a one-year
+time frame using scrapy
+Utilized SVMs, and the NLTK sentiment library, to extract average sentiment
+across daily stock mentions and regress on next day movement
+Reddit Sentiment Analysis Trading Bot 
+Education
+alexgirardet@gmail.com
++447444700439
+alexandergirardet
+M.A. Finance and Business
+University of Edinburgh
+Sep 2018 - May 2022
+Mathematical Programming in
+Advanced Analytics
+2:1
+Edinburgh, UK
+Data Science Bootcamp
+Le Wagon
+Sep 2020 - Dec 2020
+London, UK
+International Baccalaureate 
+Intenational School of Geneva
+Sep 2013 - May 2018
+Geneva, Switzerland
+37/45
+Developed a proprietary IOS database by developing a CNN model with aerial
+imagery, and productionized the model with airflow
+Created batch processing pipelines ingesting data from multiple sources to
+BigQuery.
+Extracted and validated data using Scrapy and Pydantic. Productionized
+pipeline using Docker, GitHub Actions and GCP VM
+Quantitative Investment Analyst
+Nexus Equities
+Aug 2022 - Dec 2022
+New York, USA
+Used DBT, Airflow and Looker to develop live monitoring dashboards that
+visually reflected cost inefficiencies in BigQuery jobs. Overseeing the
+processing of up to 1PB of data per day. Led to 30% BigQuery cost savings,
+through table clustering, partitioning and code optimisations 
+Creating meaningful KPIs for C-suite personnel in analysing the cost efficiency
+of BigQuery usage across all subsidiaries 
+Performed NLP analysis on commonly used production queries to detect Anti-
+SQL practices
+Data Engineer (Paid Apprentice)
+Richemont Group
+Nov 2022 - May 2022
+Geneva, Switzerland
+Swiss-American Citizen with Pre-settled status UK
+Certifications
+Google Professional Data Engineer
+Google Associate Cloud Engineer
+Data Engineer
+LiveScore Group
+May 2022-Present
+London, United Kingdom
+Designed and implemented a low-latency (<2s) data processing platform.,
+integrating Dataflow and Apache Kafka clusters, with an Automated quality
+testing, and monitoring suite.
+Implemented internal RAG system, with Langchain, Open Source Hosted LLM
+for inference.
+Crafted and maintained a systematic deployment pipeline using GitHub
+Actions, enabling streamlined and automated updates to production systems.
+Initiated and managed the incorporation of DBT into our data warehousing
+infrastructure, significantly improving the testability and reproducibility of our
+data marts.
+","Who We Are
+
+Tractable is an Artificial Intelligence company bringing the speed and insight of Applied AI to visual assessment. Trained on millions of data points, our AI-powered solutions connect everyone involved in insurance, repairs, and sales of homes and cars – helping people work faster and smarter, while reducing friction and waste.
+
+Founded in 2014, Tractable is now the AI tool of choice for world-leading insurance and automotive companies. Our solutions unlock the potential of Applied AI to transform the whole recovery ecosystem, from assessing damage and accelerating claims and repairs to recycling parts. They help make response to recovery up to ten times faster – even after full-scale disasters like floods and hurricanes.
+
+Tractable has a world-class culture, backed up by our team, making us a global employer of choice!
+
+We're a diverse team, uniting individuals of over 40 different nationalities and from varied backgrounds, with machine learning researchers and motor engineers collaborating together on a daily basis. We empower each team member to have tangible impact and grow their own scope by intentionally building a culture centred around collaboration, transparency, autonomy and continuous learning.
+
+What You Will Do
+
+The Data & ML Ops team belongs to a larger group - Dev Foundations, which is focused on building tools and services for our internal customers within Tractable: researchers, product engineers, ops specialists, etc. We have 4 teams in Dev Foundations tackling different aspects of the space: Infrastructure & Security, Analytics, QA and Data & ML Ops. As a Senior ML Ops Engineer in the Data & ML Ops team, you will be collaborating with peer teams in Dev Foundations to provide a solid technical foundation, with product engineering teams building our asset appraisal platform and with researchers creating & iterating on the models which underpin our products.
+
+We are looking for a Senior ML Ops Engineer to build and support systems that enable the core mission of Tractable - to make applied AI possible - by optimising the end-to-end Machine Learning life cycle. The vision of the ML Ops team is to enable researchers to spend 80%+ of their time solving tricky ML problems rather than dealing with engineering/infra/ops challenges.
+
+You will help mature our ML and data platform to a world-class state. You will influence the scope and technical direction as well as champion best practices within the team. You have a relentless focus on user experience (researchers, data scientists and product engineers) and you care deeply about what your team is building to make sure it will have the biggest impact on your users. You will be a strong mentor, nurturing an encouraging and supportive environment to enable the team to do their best work.
+
+The Role
+
+You'll play a key role in developing our ML & data platform from ground up, as part of a small but high-performing team. You will influence the scope and technical direction as well as champion best practices within the team. You will continuously pursue clean code practices and contribute towards overall platform architecture, collaborating with our other Engineering and Product teams.
+
+You Will
+• Work with engineers, researchers and data scientists to build the next generation of Tractable’s ML & data platform
+• Help identify and realise capabilities in our ML & data platform that massively speed up getting research to production across dataset & model management, model training, model serving, labelling, data & ML pipeline orchestration and more
+• Support Research and Product Engineers with tools and processes to enable a seamless data flywheel
+• Deploy and continuously develop robust infrastructure, using best practices for managing infrastructure-as-code
+• Solve cost and performance scalability challenges in both model training and model serving
+• Run, monitor and maintain business-critical, production systems
+• Adopt open-source technologies to best leverage our in-house resources
+• Promote engineering best practices throughout the team
+• Suggest, collect and synthesise requirements to create an effective feature roadmap
+
+Tech Stack
+
+We rely heavily on the following tools and technologies, but we are likely to explore new technologies / frameworks as we are building the platform from ground up. You don't need to have prior experience in all of them, and we actively encourage diverse views on what the best tools for the job are. We’re just keen to know that you're willing to break things, fix things, learn fast and help build a great team that is capable of building a platform that delights our customers.
+• Main Infrastructure: AWS (EC2, S3, MSK, Lambda, StepFunctions, Glue, IAM, Cognito, Systems Manager, CloudWatch, SQS, Route 53, Sagemaker), Apache Kafka (AWS MSK), Kubernetes, Datadog (Metrics, Logs, Synthetics), Pagerduty
+• Main CI/CD: Terraform, Docker, Harness
+• Main Databases: Postgres / RDS, Redis, DynamoDB
+• Main Languages: Python, SQL (Postgres), Bash
+• Main Data stack: AWS MSK, AWS Lambda, AWS Redshift, dbt, Airflow, Airbyte, AWS Glue
+• Main ML stack: Triton, AWS Sagemaker, AWS Lambda, AWS MSK, sync/async APIs, Weights & Biases, Tensorflow, Pytorch, dvc, Dagster/Flyte, Streamlit
+
+We encourage you to drop us a line even if you don’t have all the points above. That’s a lot of different areas of responsibility! We will help you pick them up because we believe that great people come from all walks of life.
+
+What You Need To Be Successful
+
+A strong ML Engineer who is passionate about building platforms that massively reduce lead time from bringing Machine Learning research to production. You would have a solid background in software engineering as well as a good understanding of the difficulties faced by data scientists. A few things we are particularly interested in seeing from you:
+• Great communication skills and collaborative mindset
+• 2+ years of experience in building scalable Machine Learning systems
+• Have experience building and/or managing scalable data infrastructure (data ingestion, data lake, data warehouse, data orchestration)
+• Strong programming experience, from self-contained algorithms to complex object modelling design
+• Worked with Python in a professional environment for 2+ years
+• Experience working with and scaling model training across GPU clusters
+• Experience in building data pipelines and managing data infrastructure
+• Experience deploying and managing infrastructure-as-code
+• Able to design scalable, robust, fault-tolerant system architecture and compare trade-offs (distributed systems experience a plus)
+• Experience building robust, intuitive tooling to support internal users (e.g. common ML libraries, CLIs etc.)
+• Numerical computing experience
+• Cares about team practices / pairing / advocate of CICD
+• Basic ML knowledge, with experience in training computer vision models at scale highly desirable
+
+What’s In It For You
+• Competitive salary
+• Equity
+• Pension scheme
+• Bupa private healthcare (full coverage)
+• Flexible hours & WFH/hybrid setups
+• Learning and Development budget
+• Competitive maternity + paternity leave
+• Regular company office events such as Games Nights, Movie Nights, Lunch & Learns, Monthly Brunch and more
+
+Diversity commitment
+
+At Tractable, we are committed to building a diverse team and inclusive workplace where people’s varied backgrounds and experiences are valued and recognised.
+
+We encourage applications from candidates of all backgrounds and offer equal opportunities without discrimination",4.25,5,"produce the assessment_answer. We will compare the skills listed on the resume with the skills and experiences required by the job description.
+
+1. The job description emphasizes the need for experience in building scalable Machine Learning systems, and the resume shows experience with ML projects such as NLP analysis and predictive modeling, which are relevant to the job.
+
+2. The job description requires strong programming experience, particularly in Python, which is listed as a skill on the resume.
+
+3. Experience with data pipelines and managing data infrastructure is mentioned in the job description, and the resume demonstrates this with experience in data extraction, feature engineering, and model inference systems.
+
+4. The job description asks for experience with infrastructure-as-code, and the resume shows experience with Docker, GitHub Actions, and GCP VM, which are relevant technologies.
+
+5. The job description mentions the need for experience in deploying and managing scalable data infrastructure, and the resume includes experience with BigQuery, Kafka, and Airflow, which align with this requirement.
+
+6. The job description requires experience with ML stacks and data stacks, and the resume lists relevant technologies such as PyTorch, dbt, and Airflow.
+
+7. The job description values experience in training computer vision models at scale, and the resume mentions the use of transfer learning for image models, which is pertinent.
+
+Based on the comparison, the skills listed on the resume are highly relevant to the job description.",4,"produce the assessment_answer. We need to compare the educational qualifications listed on the resume with the educational requirements specified in the job description.
+
+The job description does not explicitly state a required educational status but does mention that a strong background in software engineering and a good understanding of the difficulties faced by data scientists are needed. It also specifies that the candidate should have experience in building scalable Machine Learning systems and have worked with Python in a professional environment for 2+ years. Additionally, basic ML knowledge and experience in training computer vision models at scale are highly desirable.
+
+The resume lists an M.A. in Finance and Business from the University of Edinburgh, which includes Mathematical Programming in Advanced Analytics, and a Data Science Bootcamp from Le Wagon. The candidate has also worked on projects that involve NLP analysis, predictive modeling, and machine learning, which indicates a strong foundation in data science and machine learning.
+
+Given that the job description emphasizes experience and skills over specific educational credentials and the resume demonstrates relevant education and project experience in the field of data science and machine learning, we can assess the match of educational experience.",4,"produce the assessment_answer. We need to evaluate the resume against the cultural aspects mentioned in the job description. The job description emphasizes a culture centered around collaboration, transparency, autonomy, and continuous learning. It also highlights the importance of a diverse team with individuals from over 40 different nationalities and varied backgrounds.
+
+Looking at the resume, we should identify any evidence that suggests the candidate values and has experience with collaboration, transparency, autonomy, and continuous learning. Additionally, we should look for any indication that the candidate has worked in diverse environments or appreciates diversity.
+
+The resume mentions that the candidate has experience working in international settings, such as the UK and Switzerland, and has worked for companies with diverse teams, such as Richemont Group and LiveScore Group. This suggests an exposure to diverse work environments. The candidate also has a strong educational background with international experience, which could imply adaptability and appreciation for diversity.
+
+The resume also shows that the candidate has taken on roles that likely required collaboration (e.g., creating KPIs for C-suite personnel, working on team projects), and the use of tools like GitHub actions suggests a familiarity with practices that promote transparency. The candidate's experience with leading projects and developing systems indicates a level of autonomy. Continuous learning is demonstrated through the candidate's certifications and the completion of a Data Science Bootcamp.
+
+Based on these observations, we can assess how well the resume implies a cultural match with the job description.",4,"${produce the assessment_answer}. We will evaluate the resume based on the following criteria:
+
+1. Professional Language: Assess if the language used is appropriate for a professional setting and free of slang, jargon that is too technical without context, or casual phrases.
+2. Clarity and Conciseness: Determine if the resume is clear, to the point, and avoids unnecessary verbosity.
+3. Relevance of Information: Check if the information provided is relevant to the job role of a Data Engineer.
+4. Formatting and Structure: Look at the overall layout, organization, and formatting to ensure it is easy to read and follows a logical structure.
+5. Contact Information and Personal Details: Verify that the contact information is professional and personal details are appropriate."
+1,"English
+French
+Alexander Girardet
+Data Engineer
+Skills
+Python 
+BigQuery 
+Docker 
+SQL / NoSQL
+Scrapy 
+Langchain
+PyTorch 
+Git
+Looker
+Java
+dbt
+Kafka
+Airflow
+Vertex AI 
+GitHub actions 
+Time Series Analysis 
+NLP Analysis
+Apache Dataflow
+Languages
+Work Experience
+Projects
+Developed a predictive UK rental pricing bot using geo, image and text data,
+achieving an RMSE of 3500 on yearly rental prices 
+Utilized transfer learning for image models with PyTorch that determined the
+indoor and outdoor visual condition of properties 
+Created a end to end Data extraction, feature engineering and model
+inference system built with monitoring and MLOps standards. 
+Quantitative Real Estate Pricing System
+Quantitative Finance Thesis performing NLP analysis in determining the impact
+of Reddit sentiment on next day price movements of stocks 
+Extracted, validated and pre-processed 650,000 Reddit posts over a one-year
+time frame using scrapy
+Utilized SVMs, and the NLTK sentiment library, to extract average sentiment
+across daily stock mentions and regress on next day movement
+Reddit Sentiment Analysis Trading Bot 
+Education
+alexgirardet@gmail.com
++447444700439
+alexandergirardet
+M.A. Finance and Business
+University of Edinburgh
+Sep 2018 - May 2022
+Mathematical Programming in
+Advanced Analytics
+2:1
+Edinburgh, UK
+Data Science Bootcamp
+Le Wagon
+Sep 2020 - Dec 2020
+London, UK
+International Baccalaureate 
+Intenational School of Geneva
+Sep 2013 - May 2018
+Geneva, Switzerland
+37/45
+Developed a proprietary IOS database by developing a CNN model with aerial
+imagery, and productionized the model with airflow
+Created batch processing pipelines ingesting data from multiple sources to
+BigQuery.
+Extracted and validated data using Scrapy and Pydantic. Productionized
+pipeline using Docker, GitHub Actions and GCP VM
+Quantitative Investment Analyst
+Nexus Equities
+Aug 2022 - Dec 2022
+New York, USA
+Used DBT, Airflow and Looker to develop live monitoring dashboards that
+visually reflected cost inefficiencies in BigQuery jobs. Overseeing the
+processing of up to 1PB of data per day. Led to 30% BigQuery cost savings,
+through table clustering, partitioning and code optimisations 
+Creating meaningful KPIs for C-suite personnel in analysing the cost efficiency
+of BigQuery usage across all subsidiaries 
+Performed NLP analysis on commonly used production queries to detect Anti-
+SQL practices
+Data Engineer (Paid Apprentice)
+Richemont Group
+Nov 2022 - May 2022
+Geneva, Switzerland
+Swiss-American Citizen with Pre-settled status UK
+Certifications
+Google Professional Data Engineer
+Google Associate Cloud Engineer
+Data Engineer
+LiveScore Group
+May 2022-Present
+London, United Kingdom
+Designed and implemented a low-latency (<2s) data processing platform.,
+integrating Dataflow and Apache Kafka clusters, with an Automated quality
+testing, and monitoring suite.
+Implemented internal RAG system, with Langchain, Open Source Hosted LLM
+for inference.
+Crafted and maintained a systematic deployment pipeline using GitHub
+Actions, enabling streamlined and automated updates to production systems.
+Initiated and managed the incorporation of DBT into our data warehousing
+infrastructure, significantly improving the testability and reproducibility of our
+data marts.
+","We are looking for someone who is ready to help us solve hard and exciting problems as simply and quickly as possible.
+
+You will have the resource and capability to use equipment and/or methods that are unimaginable elsewhere. You will have a substantial sense of urgency around your work, doing whatever it takes to move at a speed commensurate with the time-sensitive nature of plastic pollution and climate change, and importantly, move faster than our competitors. Success at Epoch is building the solution to some of humanity’s greatest challenges, without delay.
+
+You have the opportunity to join a start up at the early stages, work with a passionate group of people, team players with a high-growth mindset and work on some of society’s biggest challenges. We value play, creativity and initiative as much as problem solving, intellectual curiosity and critical thinking. This approach is helping us grow a healthy, sustainable work culture and company.
+
+As a Machine Learning Engineer at Epoch you will:
+
+Drive the strategy for applying machine learning method to a diverse range of experimental datasets across the Epoch Biodesign R&D activities. Working closely with computational and lab biologists, you will be responsible for requirements gathering, prototyping and development of machine learning methods. Experience in the life sciences would be preferred, but primarily the ability to learn quickly and adapt to changing requirements are more important. You will drive forward activities such as:
+• Acting as primary contact with computational and lab biologists to understand their machine learning requirements.
+• Prototyping, developing, and maintaining machine learning methods based on both publicly available and proprietary data.
+• Reporting results from the developed methods in a clear manner that can be understood by wet- and dry-lab biologists and management.
+• Training colleagues in the use of any deployed machine learning methods.
+• Keeping abreast of current machine learning methods and best practices and bringing these into the company.
+
+Qualifications And Experience
+• A degree in mathematics, computer science, or a similar numerical field
+• Strong technical background, including skills in Python and related data science libraries, such as NumPy, SciPy, and pandas
+• Experience in developing machine learning methods using common frameworks such as scikit-learn, PyTorch and Tensorflow
+• Skills in data engineering, cleaning and pre-processing
+• Skills in data visualisation, utilising packages such as matplotlib and plotly
+• Excellent interpersonal skills, with demonstrable evidence of working collaboratively in an interdisciplinary environment
+• Experience with version control systems such as Git
+• An understanding of data security issues
+
+Further skills would be:
+• Experience in applying machine learning in the biotechnology or life science domain
+• Experience with large language models (LLMs)
+• Experience with cloud computing, ideally Google Cloud
+• Skills in automated testing
+• Experience in project management
+• Previous start-up experience.
+
+Benefits And Perks
+
+Epoch Biodesign offers a comprehensive benefits program. At the moment this includes:
+
+Benefits:
+• A generous allowance of 30 days paid holiday (plus the usual 8 bank holidays)
+• Meaningful EMI Share Options
+• A non-contributory pension of 9% employer contribution
+• Flexible working around the core times of 10am to 4pm
+• Cycle to work scheme
+• Tech scheme
+• Optional private medical insurance with Vitality
+• Group Income Protection
+• Group Critical Illness
+• The opportunity to be part of building something remarkable
+
+On-the-job perks
+• Complementary fresh fruit, coffee, tea and snacks
+• Various staff social activities
+• Onsite gym
+
+And we are always in the process of reviewing and implementing further benefits and on-the-job perks",3.75,4,"produce the assessment_answer. We need to compare the skills listed on the resume with the skills and experience required by the job description.
+
+The job description requires:
+- A degree in mathematics, computer science, or a similar numerical field
+- Strong technical background, including skills in Python and related data science libraries, such as NumPy, SciPy, and pandas
+- Experience in developing machine learning methods using common frameworks such as scikit-learn, PyTorch, and TensorFlow
+- Skills in data engineering, cleaning, and pre-processing
+- Skills in data visualization, utilizing packages such as matplotlib and plotly
+- Excellent interpersonal skills and collaborative experience
+- Experience with version control systems such as Git
+- An understanding of data security issues
+- Experience in applying machine learning in the biotechnology or life science domain (preferred)
+- Experience with large language models (LLMs)
+- Experience with cloud computing, ideally Google Cloud
+- Skills in automated testing
+- Experience in project management
+- Previous start-up experience (preferred)
+
+The resume lists the following relevant skills and experience:
+- Python, BigQuery, Docker, SQL/NoSQL, Scrapy, PyTorch, Git, Looker, Java, dbt, Kafka, Airflow, Vertex AI, GitHub actions, time series analysis, NLP analysis, Apache Dataflow
+- Experience with machine learning, including predictive modeling and NLP analysis
+- Experience with data engineering, feature engineering, and model inference
+- Experience with data extraction, validation, and pre-processing
+- Experience with cloud computing and data processing platforms, including GCP
+- Experience with version control systems such as Git
+- Experience with automated testing and monitoring
+- Experience in a start-up environment (Data Engineer at LiveScore Group)
+
+The resume does not explicitly mention experience with NumPy, SciPy, pandas, matplotlib, plotly, data security issues, or applying machine learning in the biotechnology or life science domain. However, the candidate has a strong background in data science and machine learning, which could be transferable to the biotechnology or life science domain.",4,"produce the assessment_answer. We need to compare the educational qualifications listed on the resume with the educational requirements specified in the job description.
+
+The job description requires:
+- A degree in mathematics, computer science, or a similar numerical field.
+
+The resume lists the following educational qualifications:
+- M.A. Finance and Business from the University of Edinburgh.
+- Data Science Bootcamp from Le Wagon.
+- International Baccalaureate from the International School of Geneva.
+
+The M.A. in Finance and Business is related to a numerical field and involves quantitative analysis, which is relevant to the job description's requirement. Additionally, the Data Science Bootcamp would have covered technical and numerical skills pertinent to the role. The International Baccalaureate also indicates a strong pre-university educational background, which may include mathematics and science courses.",3,"produce the assessment_answer. We need to consider the cultural aspects mentioned in the job description and see if the resume reflects similar values and work approaches.
+
+The job description emphasizes a sense of urgency, a high-growth mindset, teamwork, creativity, initiative, problem-solving, intellectual curiosity, and critical thinking. It also highlights the importance of a sustainable work culture and the ability to adapt to changing requirements.
+
+The resume shows evidence of a proactive and results-driven individual with experience in fast-paced environments, as seen in the development of various data engineering projects and the implementation of cost-saving measures. The candidate has demonstrated the ability to work collaboratively, as indicated by the creation of KPIs for C-suite personnel and the development of machine learning methods in conjunction with other teams.
+
+However, the resume does not explicitly mention the candidate's approach to creativity, play, or initiative, nor does it reflect a specific interest or experience in tackling societal challenges like plastic pollution and climate change, which are central to the job description.
+
+Given the evidence of a high-growth mindset, problem-solving skills, and adaptability in the resume, but a lack of explicit alignment with the cultural emphasis on tackling societal challenges and fostering a playful and creative work environment, the cultural match would be moderate.",4,"${produce the assessment_answer}. We will evaluate the resume based on the following criteria:
+
+1. Professional Language: Assess if the language used is appropriate for a professional setting and free of slang, jargon that is too technical without context, or casual phrases.
+2. Clarity and Conciseness: Determine if the resume is clear, to the point, and avoids unnecessary verbosity.
+3. Relevance of Information: Check if the information provided is relevant to the job role of a Data Engineer.
+4. Formatting and Structure: Look at the overall layout, organization, and formatting to ensure it is easy to read and follows a logical structure.
+5. Contact Information and Personal Details: Verify that the contact information is professional and personal details are appropriate."
+2,"English
+French
+Alexander Girardet
+Data Engineer
+Skills
+Python 
+BigQuery 
+Docker 
+SQL / NoSQL
+Scrapy 
+Langchain
+PyTorch 
+Git
+Looker
+Java
+dbt
+Kafka
+Airflow
+Vertex AI 
+GitHub actions 
+Time Series Analysis 
+NLP Analysis
+Apache Dataflow
+Languages
+Work Experience
+Projects
+Developed a predictive UK rental pricing bot using geo, image and text data,
+achieving an RMSE of 3500 on yearly rental prices 
+Utilized transfer learning for image models with PyTorch that determined the
+indoor and outdoor visual condition of properties 
+Created a end to end Data extraction, feature engineering and model
+inference system built with monitoring and MLOps standards. 
+Quantitative Real Estate Pricing System
+Quantitative Finance Thesis performing NLP analysis in determining the impact
+of Reddit sentiment on next day price movements of stocks 
+Extracted, validated and pre-processed 650,000 Reddit posts over a one-year
+time frame using scrapy
+Utilized SVMs, and the NLTK sentiment library, to extract average sentiment
+across daily stock mentions and regress on next day movement
+Reddit Sentiment Analysis Trading Bot 
+Education
+alexgirardet@gmail.com
++447444700439
+alexandergirardet
+M.A. Finance and Business
+University of Edinburgh
+Sep 2018 - May 2022
+Mathematical Programming in
+Advanced Analytics
+2:1
+Edinburgh, UK
+Data Science Bootcamp
+Le Wagon
+Sep 2020 - Dec 2020
+London, UK
+International Baccalaureate 
+Intenational School of Geneva
+Sep 2013 - May 2018
+Geneva, Switzerland
+37/45
+Developed a proprietary IOS database by developing a CNN model with aerial
+imagery, and productionized the model with airflow
+Created batch processing pipelines ingesting data from multiple sources to
+BigQuery.
+Extracted and validated data using Scrapy and Pydantic. Productionized
+pipeline using Docker, GitHub Actions and GCP VM
+Quantitative Investment Analyst
+Nexus Equities
+Aug 2022 - Dec 2022
+New York, USA
+Used DBT, Airflow and Looker to develop live monitoring dashboards that
+visually reflected cost inefficiencies in BigQuery jobs. Overseeing the
+processing of up to 1PB of data per day. Led to 30% BigQuery cost savings,
+through table clustering, partitioning and code optimisations 
+Creating meaningful KPIs for C-suite personnel in analysing the cost efficiency
+of BigQuery usage across all subsidiaries 
+Performed NLP analysis on commonly used production queries to detect Anti-
+SQL practices
+Data Engineer (Paid Apprentice)
+Richemont Group
+Nov 2022 - May 2022
+Geneva, Switzerland
+Swiss-American Citizen with Pre-settled status UK
+Certifications
+Google Professional Data Engineer
+Google Associate Cloud Engineer
+Data Engineer
+LiveScore Group
+May 2022-Present
+London, United Kingdom
+Designed and implemented a low-latency (<2s) data processing platform.,
+integrating Dataflow and Apache Kafka clusters, with an Automated quality
+testing, and monitoring suite.
+Implemented internal RAG system, with Langchain, Open Source Hosted LLM
+for inference.
+Crafted and maintained a systematic deployment pipeline using GitHub
+Actions, enabling streamlined and automated updates to production systems.
+Initiated and managed the incorporation of DBT into our data warehousing
+infrastructure, significantly improving the testability and reproducibility of our
+data marts.
+","Company Description
+
+Source BioScience Limited is an international provider of integrated state of the art Laboratory Services and Products. Headquartered in the UK, with offices in UK, Europe and the USA, Source BioScience is a fully owned subsidiary of SourceBio International plc.
+
+Job Description
+
+We’re looking for a Machine Learning (ML) engineer to assist with several on-going AI driven enhancements as well as to take ownership of the production of new models, frameworks and solutions within a rapid growth phase as the company integrates with hospitals across the country to deliver a next-gen digital pathology service. This remote role forms a core part of a development team within an exciting phase of rapid advancement and growth within the sector where Source LDPath is a leading driver of innovation and performance.
+
+As part of the highly collaborative role, you will be working within a software development team and with our lead developer for machine learning/AI, where you will be collectively responsible for the design, implementation and deliverance of ML solutions within the digital pathology space of the company. There are currently a number of areas that are actively being developed and utilised within a production environment – the distinctions are in the area of Whole Slide Image (WSI) analysis (computer vision, classification, deep-learning) and within NLP utilising transformer-based models to utilise for NER, as well as utilising knowledge graphs, to extract information from input forms, diagnostic (and in the near future, potentially synoptic) reporting as well as other free flowing clinical text.
+
+The role also covers day-to-day involvement in other software engineering tasks for other aspects of deployed software as the team work across areas – which would include work on the new iteration of the company’s digital pathology flagship solution that has many layers of interconnectivity and interoperability including providing connectivity to-and-from hospital systems. This work can cover the entire life cycle of software development so the ideal candidate will need to be experienced across disciplines. The role will involve working on software development for the main digital pathology solutions and integration with them, as well as the specific machine learning needs of the job so any potential candidate will need to be comfortable working across disciplines – however, as growth continues, it is expected that the role will pivot towards the designing and implementation of ML solutions primarily.
+
+The ideal candidate will be experienced and have worked as a machine learning engineer, software engineer or in a related role. The main environment is within AWS so experience of working with cloud platforms, especially within a machine learning or data science context, is very desirable.
+
+The ideal candidate for the role should have experience of machine learning, data science, as well as DevOps and/or software engineering or development and will need to demonstrate practical experience. The role will require working within a team with rapidly growing responsibility and reach, so any candidate will need to be highly collaborative, an influential communicator and the capability to work on tight deadlines. Experience of working on digital health and/or pathology solutions is highly advantageous.
+
+The role will require working or interacting on a range of non-ML solutions including modular software designed for the flagship system and related components, including but not limited to, lab management, reporting, integration, financial software connectivity, mobile applications, web applications, APIs both internal and external such as interfacing with NHS Trusts or nationwide interfaces or for specific clients/integrations.
+
+The integration models work on a range of interoperability but primarily using HL7/FHIR, so any knowledge or experience in healthcare interoperability is advantageous, as it drives connectivity to send and receive clinical, diagnostic and digital information including digital slides.
+
+This role involves pushing the boundaries of medical imaging and text AI within a high-volume context, real world settings, working with a large number of clients and internal tools to deliver impact across the business and to drive innovation in digital pathology.
+
+About The Role:
+
+The following qualities are what we are seeking for the role and how they would relate to their daily activities.
+• Designing and implementation of ML based frameworks and solutions. The ML engineer would work with the lead developer for machine learning on designing and implementing required solutions. This process involves working with stakeholders to identify key requirements, deciding on key architectural and design decisions, development and testing, and then finally deployment within a production cloud environment. This would involve querying both large volume image data as well as other sources of data such as reports and clinical/diagnostic data extracted from messaging and databases (Postgres/SQL).
+• Working on flagship software and modular components. The role will also involve work in more traditional software release settings initially to work on the company’s flagship software in digital pathology which involve work in a cloud-based environment potentially on both back-end and front-end components, as well as creation of, and interfacing with existing, APIs and other integrations.
+• Data science and analytics. The role has capability for expansion into data science in terms of helping to create robust reporting and understanding across the area of the business such as helping to create analytical dashboards and query tools for front end users to drive context-driven understanding of the data.
+• Working within an evolving CI/CD and responsive environment. The role will involve work in cloud-based environments, and by the nature of the software, will work on iterative releases.
+
+Qualifications
+
+The following are notes relating to required elements for potential candidates and description of ideal qualities.
+• Effective, analytical and methodical designer. The role will require someone with a strong background in analytical thinking, techniques and the ability to break down complex problems. The ideal candidate will have a proven record of working on complex technical projects, utilising a range of techniques to potentially drive their thinking and approach to design, being able to integrate unique elements of healthcare and in understanding the needs of solutions within the space.
+• Experienced data science, mathematical or big data skills. The role will require working with large, and complex data sets, including large volumes of free text and images, including a variety of formats and different levels of classification, metadata and related information. Candidates will need to be comfortable with dealing with a range of data sources, pre-and-post processing of data as well as strong understanding of analytical skills.
+• Problem-solver. The development of any complex project can throw up a range of problems, potentially in a fast-paced environment with demanding deadlines. These problems can occur in the successful delivery of a project at any stage and with any stakeholders, so the engineer should be comfortable in helping to work through problems and to engage in removal of blockers and the implementations.
+• Thorough and meticulous worker. The engineer will need to work across a range of software solutions and environments and will therefore need to be detailed and thorough in their working to ensure the highest levels of efficiency and safety while maintaining accurate records and collaboration within the development team – the team encompasses not just other engineers but will also interface with a business analyst, support staff, junior developers and with the leads for digital and cellular pathology within the business daily as well as a range of internal and external stakeholders.
+
+As part of the development team, the main areas that the successful candidate will be involved in will be the developmental role where they will initially be working on:
+• The flagship software (LIMS2) and related products
+• On-going production machine learning models (NER from text data and image analysis of scanned slides relating to QC of slide quality)
+• Working on designing new ML models, frameworks and solutions as required by the needs of the business and end-users
+
+Ideal candidates should be comfortable working on both text and image based ML models, but experience is highly advantageous in either. The role will require working with, improving and implementing models across both domains.
+
+Role Requirements:
+
+Essential Criteria:
+
+Candidates will be required to have the following:
+• At least 3 years of experience working in a professional software development environment with experience in Python, C/C++ and C# and/or a Masters/PhD in a relevant field with good development skills
+• Database/data management skills including SQL
+• Experience of algorithm development, implementation and optimisation (while understanding/working to platform constraints)
+• ML data acquisition and data management experience
+• Experience in working with complex software and tech stacks
+• Excellent problem-solving skills.
+• Ability to work to deadlines.
+• Self-disciplined and efficient, with a flexible and proactive nature.
+• Excellent communication and collaboration skills.
+• Strong workload and prioritisation planning skills.
+• Ability to own and lead development from inception to deployment.
+• Capable of translating high-level direction into design and implementation.
+• Being able to work efficiently in a team environment as well as individually.
+• Strong analytical skills
+• Highly motivated and driven individual.
+
+Desirable Criteria:
+
+These are criteria that will give candidates an edge, but they are not strictly required:
+• Previous experience in healthcare software development/projects – especially with AWS
+• Previous experience in deep and or reinforcement learning, including transformers
+• Knowledge of healthcare interoperability, HL7/FHIR or any other protocols
+• Working with large scale real-time systems, compression and optimisation
+• Data science skills and analytics including backtesting, working with stochastic models in deep learning,
+• Experience with classification modelling in digital pathology image analysis, CNNs, classifiers of bio image analysis and other related areas
+• Clinical, diagnostic or healthcare related NLP experience
+
+Additional Information
+
+Benefits:
+• Pension
+• Income Protection
+• Death in Service
+• Employee Assistance Programme
+• Medicash health cash plan
+• Shopping & leisure discount portal
+• Virtual GP Service
+• Prove Yourself health and wellbeing resources
+• SkinVision App
+• Able Futures Mental Health support
+• 33 days holiday (inclusive of bank holidays)
+• An extra day off on your birthday
+• Cycle to work scheme
+• Discounted private healthcare
+
+Candidate must have proof of their right to work in the UK",3.75,4,"produce the assessment_answer. We need to compare the skills listed on the resume with the skills and experience required by the job description.
+
+The job description requires a candidate with experience in machine learning, data science, as well as DevOps and/or software engineering or development. It specifically mentions experience with AWS, Python, C/C++, C#, SQL, algorithm development, ML data acquisition and management, and experience working with complex software and tech stacks. Additionally, experience in healthcare software development, deep learning, transformers, healthcare interoperability, HL7/FHIR, and digital pathology image analysis is considered an advantage.
+
+The resume lists skills such as Python, BigQuery, Docker, SQL/NoSQL, Scrapy, PyTorch, Git, Looker, Java, dbt, Kafka, Airflow, Vertex AI, GitHub actions, time series analysis, and NLP analysis. The candidate has experience with data engineering, including developing predictive models, working with image models, and creating data extraction and processing systems. They have also worked with large datasets and have experience in quantitative analysis and machine learning operations (MLOps).
+
+While the resume does not explicitly mention AWS, it does show experience with cloud platforms such as GCP, which could be transferable. The candidate has a strong background in Python, which is required, and has worked with SQL databases. They have also demonstrated experience with machine learning, data science, and software engineering tasks. The resume does not specifically mention experience with healthcare software development or HL7/FHIR, but the candidate's skills in data management and ML could be relevant to the job.",4,"produce the assessment_answer. We need to compare the educational qualifications listed on the resume with the educational requirements specified in the job description.
+
+The job description states that the candidate should have ""at least 3 years of experience working in a professional software development environment with experience in Python, C/C++ and C# and/or a Masters/PhD in a relevant field with good development skills."" This indicates that the job requires either significant professional experience or an advanced degree in a relevant field.
+
+Looking at the resume, the candidate has a ""M.A. Finance and Business from the University of Edinburgh"" and has completed a ""Data Science Bootcamp at Le Wagon."" While the Master's degree is not specifically in a technical field such as computer science or data science, the candidate has supplemented their education with a bootcamp focused on data science, which is relevant to the job description.
+
+Given that the job description does not specify a particular field of study for the Master's degree and accepts a Master's or higher in a ""relevant field,"" and considering the candidate has also completed a data science bootcamp, the education experience on the resume can be considered to match the job description's desired educational status.",3,"produce the assessment_answer. We need to evaluate the resume against the job description to determine if there is a cultural match. Cultural match can refer to shared values, work ethic, communication style, and the ability to integrate well with the existing team and company ethos.
+
+The job description emphasizes a collaborative environment, with a need for a highly communicative and influential team player who can work on tight deadlines. It also highlights the importance of innovation and performance in the digital pathology space, suggesting a culture that values cutting-edge technology and continuous improvement.
+
+The resume showcases a candidate with a strong technical background in data engineering and machine learning, with experience in developing and deploying ML solutions. The candidate has worked on projects that involve feature engineering, model inference, and NLP analysis, which aligns with the technical requirements of the job description.
+
+However, the resume does not provide explicit evidence of the candidate's soft skills or their ability to work collaboratively in a team environment. There is no mention of teamwork, communication skills, or any projects that were completed in a team setting. The resume focuses heavily on technical skills and individual projects.
+
+Given the lack of explicit evidence of cultural fit in terms of collaboration and communication, we cannot conclusively determine a strong cultural match based solely on the resume. However, the candidate's technical expertise and project experience may still make them a valuable asset to the team, and cultural fit could be better assessed through an interview.",4,"${produce the assessment_answer}. We will evaluate the resume based on the following criteria:
+
+1. Professional Language: Assess if the language used is appropriate for a professional setting and free of slang, jargon that is too technical without context, or casual phrases.
+2. Clarity and Conciseness: Determine if the resume is clear, to the point, and avoids unnecessary verbosity.
+3. Relevance of Information: Check if the information provided is relevant to the job role of a Data Engineer.
+4. Formatting and Structure: Look at the overall layout, organization, and formatting to ensure it is easy to read and follows a logical structure.
+5. Contact Information and Personal Details: Verify that the contact information is professional and personal details are appropriate."
+3,"English
+French
+Alexander Girardet
+Data Engineer
+Skills
+Python 
+BigQuery 
+Docker 
+SQL / NoSQL
+Scrapy 
+Langchain
+PyTorch 
+Git
+Looker
+Java
+dbt
+Kafka
+Airflow
+Vertex AI 
+GitHub actions 
+Time Series Analysis 
+NLP Analysis
+Apache Dataflow
+Languages
+Work Experience
+Projects
+Developed a predictive UK rental pricing bot using geo, image and text data,
+achieving an RMSE of 3500 on yearly rental prices 
+Utilized transfer learning for image models with PyTorch that determined the
+indoor and outdoor visual condition of properties 
+Created a end to end Data extraction, feature engineering and model
+inference system built with monitoring and MLOps standards. 
+Quantitative Real Estate Pricing System
+Quantitative Finance Thesis performing NLP analysis in determining the impact
+of Reddit sentiment on next day price movements of stocks 
+Extracted, validated and pre-processed 650,000 Reddit posts over a one-year
+time frame using scrapy
+Utilized SVMs, and the NLTK sentiment library, to extract average sentiment
+across daily stock mentions and regress on next day movement
+Reddit Sentiment Analysis Trading Bot 
+Education
+alexgirardet@gmail.com
++447444700439
+alexandergirardet
+M.A. Finance and Business
+University of Edinburgh
+Sep 2018 - May 2022
+Mathematical Programming in
+Advanced Analytics
+2:1
+Edinburgh, UK
+Data Science Bootcamp
+Le Wagon
+Sep 2020 - Dec 2020
+London, UK
+International Baccalaureate 
+Intenational School of Geneva
+Sep 2013 - May 2018
+Geneva, Switzerland
+37/45
+Developed a proprietary IOS database by developing a CNN model with aerial
+imagery, and productionized the model with airflow
+Created batch processing pipelines ingesting data from multiple sources to
+BigQuery.
+Extracted and validated data using Scrapy and Pydantic. Productionized
+pipeline using Docker, GitHub Actions and GCP VM
+Quantitative Investment Analyst
+Nexus Equities
+Aug 2022 - Dec 2022
+New York, USA
+Used DBT, Airflow and Looker to develop live monitoring dashboards that
+visually reflected cost inefficiencies in BigQuery jobs. Overseeing the
+processing of up to 1PB of data per day. Led to 30% BigQuery cost savings,
+through table clustering, partitioning and code optimisations 
+Creating meaningful KPIs for C-suite personnel in analysing the cost efficiency
+of BigQuery usage across all subsidiaries 
+Performed NLP analysis on commonly used production queries to detect Anti-
+SQL practices
+Data Engineer (Paid Apprentice)
+Richemont Group
+Nov 2022 - May 2022
+Geneva, Switzerland
+Swiss-American Citizen with Pre-settled status UK
+Certifications
+Google Professional Data Engineer
+Google Associate Cloud Engineer
+Data Engineer
+LiveScore Group
+May 2022-Present
+London, United Kingdom
+Designed and implemented a low-latency (<2s) data processing platform.,
+integrating Dataflow and Apache Kafka clusters, with an Automated quality
+testing, and monitoring suite.
+Implemented internal RAG system, with Langchain, Open Source Hosted LLM
+for inference.
+Crafted and maintained a systematic deployment pipeline using GitHub
+Actions, enabling streamlined and automated updates to production systems.
+Initiated and managed the incorporation of DBT into our data warehousing
+infrastructure, significantly improving the testability and reproducibility of our
+data marts.
+","Location: London, England, United Kingdom
+
+Salary: Competitive
+
+Permanent
+
+ML Ops Engineer – London, UK – £80,000 Base salary + Strong EMI Options – Opportunity to work with a rapidly growing Deep Tech start-up
+
+We are working with a rapidly growing Deep Tech AI scaleup based in London as they go into an exciting new stage of expansion! The company is currently looking to expand their MLOps Engineering function and add another experienced member to the team due to their recent success in fundraising rounds
+
+They are on the lookout for an ML Ops Engineer to collaborate with cross-functional teams to ensure scalability and provide vital support on issues related to PyTorch.
+
+An ML Ops Engineer will be recognised and rewarded by a business that is dedicated to investing in its employees.
+
+The Opportunity
+
+As an ML Ops Engineer. your responsibilities will involve cross-functional work throughout the tech division of the company, and tight collaboration with the Head of Engineering primarily focusing on MLOps.
+
+Responsibilities
+• Maintain and improve infrastructural elements that are essential to production and research.
+• Create automations that improve the productivity of creating and implementing machine learning models.
+• Diagnose and resolve PyTorch-related problems and bottlenecks.
+• Adopt DevOps procedures to guarantee testing, quality assurance, and the effective distribution of machine learning models.
+• Assist the current machine learning stack by offering technical know-how and guaranteeing its smooth functioning.
+
+Requirements
+• BSc Degree in a STEM field.
+• 3+ years’ experience in Machine Learning or Software.
+• Solid knowledge of DevOps tools, such as Docker and K8s.
+• Practical experience writing Python programs at the production level.
+• Driven to work in an environment that is start-up or scaleup and provides opportunities for ongoing learning and growth.",4.25,4,"produce the assessment_answer. We will compare the skills listed on the resume with the requirements and responsibilities outlined in the job description.
+
+The job description requires a candidate with experience in MLOps, specifically with responsibilities that include maintaining and improving infrastructure, creating automations for machine learning models, diagnosing and resolving PyTorch-related problems, and adopting DevOps procedures. The candidate should have a solid knowledge of DevOps tools, such as Docker and Kubernetes (K8s), and practical experience writing Python programs at the production level.
+
+The resume lists several skills and experiences that are relevant to the job description:
+
+1. Python is mentioned as a skill, which aligns with the requirement for practical experience writing Python programs.
+2. PyTorch is listed as a skill, and the candidate has utilized it for transfer learning in image models, which is directly relevant to diagnosing and resolving PyTorch-related problems.
+3. Docker is mentioned, which is one of the DevOps tools required by the job description.
+4. The candidate has experience with GitHub actions, which is part of adopting DevOps procedures.
+5. The resume demonstrates experience with machine learning operations, as evidenced by the development of a predictive bot and a data extraction, feature engineering, and model inference system built with monitoring and MLOps standards.
+
+However, the resume does not explicitly mention Kubernetes (K8s), which is a requirement in the job description. Despite this, the candidate's experience with similar technologies and concepts suggests a strong foundation in the relevant skills.",5,"produce the assessment_answer. We need to compare the educational qualifications listed on the resume with the educational requirements specified in the job description.
+
+The job description requires a BSc Degree in a STEM field. The resume lists an M.A. in Finance and Business from the University of Edinburgh, which is a master's degree in a field that can be considered a STEM-related field, especially if the focus was on the more quantitative aspects of finance. Additionally, the candidate has completed a Data Science Bootcamp, which is relevant to the technical and practical skills needed for the ML Ops Engineer role.
+
+Given that the candidate has a higher level of education than required and has also completed a bootcamp that is directly relevant to the job, we can conclude that the education experience on the resume matches or even exceeds the job description's desired educational status.",4,"produce the assessment_answer. We need to consider the cultural aspects of the job description and the resume. The job description mentions a rapidly growing Deep Tech AI scaleup that values cross-functional work, collaboration, and is dedicated to investing in its employees. It also emphasizes the need for ongoing learning and growth in a start-up or scaleup environment.
+
+The resume shows that the candidate has experience working in various data engineering roles, including a position at a scaleup company (LiveScore Group). The candidate has demonstrated the ability to work cross-functionally, as seen in projects that required collaboration with C-suite personnel and the implementation of a low-latency data processing platform. The candidate's experience with PyTorch and other machine learning tools, as well as their involvement in projects that required diagnosing and resolving issues, aligns with the job description's requirement for PyTorch expertise.
+
+Additionally, the candidate has shown a willingness to learn and grow, as evidenced by their education background and certifications. The candidate's experience in a fast-paced environment, as well as their proactive approach to improving infrastructures and creating automations, suggests that they would be comfortable in the dynamic and evolving culture of a Deep Tech AI scaleup.
+
+Based on this analysis, we can assess the cultural match between the resume and the job description.",4,"${produce the assessment_answer}. We will evaluate the resume based on the following criteria:
+
+1. Professional Language: Assess if the language used is appropriate for a professional setting and free of slang, jargon that is too technical without context, or casual phrases.
+2. Clarity and Conciseness: Determine if the resume is clear, to the point, and avoids unnecessary verbosity.
+3. Relevance of Information: Check if the information provided is relevant to the job role of a Data Engineer.
+4. Formatting and Structure: Look at the overall layout, organization, and formatting to ensure it is easy to read and follows a logical structure.
+5. Contact Information and Personal Details: Verify that the contact information is professional and personal details are appropriate."
+4,"English
+French
+Alexander Girardet
+Data Engineer
+Skills
+Python 
+BigQuery 
+Docker 
+SQL / NoSQL
+Scrapy 
+Langchain
+PyTorch 
+Git
+Looker
+Java
+dbt
+Kafka
+Airflow
+Vertex AI 
+GitHub actions 
+Time Series Analysis 
+NLP Analysis
+Apache Dataflow
+Languages
+Work Experience
+Projects
+Developed a predictive UK rental pricing bot using geo, image and text data,
+achieving an RMSE of 3500 on yearly rental prices 
+Utilized transfer learning for image models with PyTorch that determined the
+indoor and outdoor visual condition of properties 
+Created a end to end Data extraction, feature engineering and model
+inference system built with monitoring and MLOps standards. 
+Quantitative Real Estate Pricing System
+Quantitative Finance Thesis performing NLP analysis in determining the impact
+of Reddit sentiment on next day price movements of stocks 
+Extracted, validated and pre-processed 650,000 Reddit posts over a one-year
+time frame using scrapy
+Utilized SVMs, and the NLTK sentiment library, to extract average sentiment
+across daily stock mentions and regress on next day movement
+Reddit Sentiment Analysis Trading Bot 
+Education
+alexgirardet@gmail.com
++447444700439
+alexandergirardet
+M.A. Finance and Business
+University of Edinburgh
+Sep 2018 - May 2022
+Mathematical Programming in
+Advanced Analytics
+2:1
+Edinburgh, UK
+Data Science Bootcamp
+Le Wagon
+Sep 2020 - Dec 2020
+London, UK
+International Baccalaureate 
+Intenational School of Geneva
+Sep 2013 - May 2018
+Geneva, Switzerland
+37/45
+Developed a proprietary IOS database by developing a CNN model with aerial
+imagery, and productionized the model with airflow
+Created batch processing pipelines ingesting data from multiple sources to
+BigQuery.
+Extracted and validated data using Scrapy and Pydantic. Productionized
+pipeline using Docker, GitHub Actions and GCP VM
+Quantitative Investment Analyst
+Nexus Equities
+Aug 2022 - Dec 2022
+New York, USA
+Used DBT, Airflow and Looker to develop live monitoring dashboards that
+visually reflected cost inefficiencies in BigQuery jobs. Overseeing the
+processing of up to 1PB of data per day. Led to 30% BigQuery cost savings,
+through table clustering, partitioning and code optimisations 
+Creating meaningful KPIs for C-suite personnel in analysing the cost efficiency
+of BigQuery usage across all subsidiaries 
+Performed NLP analysis on commonly used production queries to detect Anti-
+SQL practices
+Data Engineer (Paid Apprentice)
+Richemont Group
+Nov 2022 - May 2022
+Geneva, Switzerland
+Swiss-American Citizen with Pre-settled status UK
+Certifications
+Google Professional Data Engineer
+Google Associate Cloud Engineer
+Data Engineer
+LiveScore Group
+May 2022-Present
+London, United Kingdom
+Designed and implemented a low-latency (<2s) data processing platform.,
+integrating Dataflow and Apache Kafka clusters, with an Automated quality
+testing, and monitoring suite.
+Implemented internal RAG system, with Langchain, Open Source Hosted LLM
+for inference.
+Crafted and maintained a systematic deployment pipeline using GitHub
+Actions, enabling streamlined and automated updates to production systems.
+Initiated and managed the incorporation of DBT into our data warehousing
+infrastructure, significantly improving the testability and reproducibility of our
+data marts.
+","We are looking for a MLOps Engineer with prior experience in working with Data Scientists to ensure a smooth transition of models from development to production. Test. Deploy. Maintain. Monitor.
+
+The opportunities to be a part of something totally new across ML, traditional AI and GenAI are virtually unlimited.  This role is part of Intapp Cloud Engineering organization responsible for Cloud Architecture, Cloud Security, Networking, CICD and Cloud Operations.
+
+As an integral part of our team, you will not only need to tackle operational challenges at every layer of the system infrastructure, but also set up essential tools like Spark, Databricks, Snowflake, Kubernetes, and Kafka for data science infrastructure. 
+
+What you will do:
+• Collaborate with stakeholders to define MLOps strategies aligned with business objectives and technical requirements. Assess current infrastructure, processes, and tooling to identify gaps and opportunities for MLOps implementation.
+• Design, Develop, and Implement end-to-end ML deployment pipelines for model training, perform validation, deployment, and monitoring. Automate data ingestion, feature engineering, model training, and do evaluation processes using tools like Apache Airflow, Kubeflow, or MLflow.
+• Architect and deploy scalable infrastructure for ML workloads using cloud platforms and containerization technologies (e.g., Docker, Kubernetes).
+• Implement model monitoring and logging solutions to track model performance, data drift, and model drift in production.
+• Perform Integration and Deployment (CI/CD), Establish CI/CD pipelines for automated testing, validation, and deploy ML models using tools like Jenkins, Azure DevOps.
+• Implement version control and model versioning practices to manage changes and updates to ML models.
+• Implement security best practices for securing ML infrastructure, data, and models in compliance with regulatory requirements. Establish governance policies and access controls for managing and monitoring ML artifacts and resources.
+• Provide training and mentorship to data scientists, engineers, and stakeholders on MLOps practices, tools, and methodologies. Foster a culture of collaboration and continuous improvement in MLOps adoption across the organization.
+
+What you will need:
+• 3-4 years of experience in data engineering, DevOps, or related field.
+• Proven experience with Azure Machine Learning, Azure Data Factory, and Azure DevOps.
+• Familiarity with machine learning concepts and model training pipelines.
+• Strong understanding of CI/CD best practices and automation tools.
+• Excellent communication and collaboration skills.
+• Ability to work independently and as part of a cross-functional team.
+
+What you will gain at Intapp:
+
+Our culture at Intapp emphasizes accountability, responsibility, and growth. We support each other in a positive, open atmosphere that fosters creativity, approachability, and teamwork. We’re committed to creating a modern work environment that’s connected yet flexible, supporting both professional success and work-life balance. In return for your passion, commitment, and collaborative approach, we offer:
+• Competitive base salary plus variable compensation and equity
+• Generous paid parental leave, including adoptive leave
+• Traditional comprehensive benefits, plus:
+• Generous Paid Time Off
+• Tuition reimbursement plan
+• Family Formation benefit offered by Carrot
+• Wellness programs and benefits provided by Modern Health
+• Paid volunteer time off and donation matching for the causes you care about
+• Home office stipend
+• Opportunities for personal growth and professional development supported by a community of talented professionals
+• An open, collaborative environment where your background and contributions are valued
+• Experience at a growing public company where you can make an impact and achieve your goals
+• Open offices and kitchens stocked with beverages and snacks
+
+Intapp provides equal employment opportunities to all qualified applicants and will make hiring decisions without regard to race, color, sex, sexual orientation, gender identity or expression, religion, national origin or ancestry, age, disability, marital status, pregnancy, protected veteran status, protected genetic information, political affiliation, or any other characteristic protected by federal, state or local laws. All offers are contingent upon passing a criminal history and other background checks if applicable to the position.
+
+Please note: Intapp will not hire through text message, social media, or email alone. We will never extend a job offer unless you have been contacted directly by an Intapp recruiter and have participated in the interview process which will generally consist of 3 or more virtual or in person meetings. Please note that Intapp only uses company email addresses, which contain “@intapp.com” or “@dealcloud.com” to communicate with candidates via email. Intapp will never ask for financial information of any kind or for any payment during the job application process. We post all legitimate job openings on the Intapp Career Site at https://www.intapp.com/working-at-intapp/. If you believe you were a victim of such a scam, you may contact your local authorities. Intapp is not responsible for any claims, losses, damages, or expenses resulting from scammers",4.25,5,"produce the assessment_answer. We need to compare the skills listed on the resume with the requirements and responsibilities outlined in the job description.
+
+The job description emphasizes the need for experience with MLOps, including the ability to design, develop, and implement end-to-end ML deployment pipelines, automate data ingestion, feature engineering, model training, and evaluation processes. It also requires knowledge of cloud platforms, containerization technologies, CI/CD best practices, and automation tools. Additionally, familiarity with machine learning concepts, model training pipelines, and security best practices for ML infrastructure is important.
+
+The resume lists skills and experiences that are relevant to the job description, such as:
+
+- Experience with Python, BigQuery, Docker, SQL/NoSQL, Kafka, Airflow, and GitHub actions, which are important for data engineering and MLOps tasks.
+- Projects involving predictive modeling, NLP analysis, and the development of data extraction, feature engineering, and model inference systems, which align with the job description's focus on ML deployment pipelines and automation.
+- Experience with monitoring and optimizing BigQuery jobs, which is relevant to the job's requirement for monitoring and logging solutions to track model performance.
+- The use of dbt, which is a tool for data transformation and is relevant to the job's focus on data engineering practices.
+- Experience with productionizing models and creating CI/CD pipelines, which is directly relevant to the job description's requirements for CI/CD and model deployment.
+
+Based on the resume, the candidate has demonstrated skills and experiences that align well with the job description's requirements for an MLOps Engineer role.",5,"produce the assessment_answer. We need to compare the educational qualifications listed on the resume with the educational requirements specified in the job description. The job description does not explicitly state a required educational status, but it does mention that the candidate will gain opportunities for personal growth and professional development, implying that the company values continuous learning and possibly formal education in a relevant field.
+
+The resume lists a Master of Arts in Finance and Business from the University of Edinburgh, a Data Science Bootcamp from Le Wagon, and an International Baccalaureate from the International School of Geneva. While the job description does not specify a need for a degree in a particular field, the candidate's education in finance, business, and data science is relevant to the role of an MLOps Engineer, which often requires a strong understanding of data, analytics, and machine learning concepts.
+
+Given that the job description does not specify educational requirements but the candidate has a strong educational background relevant to the field, we can assess the match of educational experience to the job description's desired educational status.",3,"produce the assessment_answer. We need to consider the cultural aspects mentioned in the job description and compare them with the information provided in the resume. The job description emphasizes a culture that values accountability, responsibility, growth, creativity, approachability, teamwork, and a positive, open atmosphere. It also highlights the importance of work-life balance, personal growth, professional development, and a collaborative environment where backgrounds and contributions are valued.
+
+Looking at the resume, we can infer some cultural alignment through the candidate's work experience and projects. The candidate has experience working in teams, as indicated by phrases like ""overseeing the processing"" and ""initiated and managed,"" which suggest a level of responsibility and teamwork. The candidate's involvement in creating monitoring dashboards and improving cost efficiencies implies a focus on growth and creativity. The resume also shows a commitment to professional development through education and certifications.
+
+However, the resume does not explicitly mention the candidate's approach to work-life balance, their approach to collaboration beyond project management, or how they value diversity and contributions from different backgrounds. Without explicit statements or examples that align with the cultural values described in the job description, it is challenging to assess a strong cultural match solely based on the resume.",4,"${produce the assessment_answer}. We will evaluate the resume based on the following criteria:
+
+1. Professional Language: Assess if the language used is appropriate for a professional setting and free of slang, jargon that is too technical without context, or casual phrases.
+2. Clarity and Conciseness: Determine if the resume is clear, to the point, and avoids unnecessary verbosity.
+3. Relevance of Information: Check if the information provided is relevant to the job role of a Data Engineer.
+4. Formatting and Structure: Look at the overall layout, organization, and formatting to ensure it is easy to read and follows a logical structure.
+5. Contact Information and Personal Details: Verify that the contact information is professional and personal details are appropriate."
+5,"English
+French
+Alexander Girardet
+Data Engineer
+Skills
+Python 
+BigQuery 
+Docker 
+SQL / NoSQL
+Scrapy 
+Langchain
+PyTorch 
+Git
+Looker
+Java
+dbt
+Kafka
+Airflow
+Vertex AI 
+GitHub actions 
+Time Series Analysis 
+NLP Analysis
+Apache Dataflow
+Languages
+Work Experience
+Projects
+Developed a predictive UK rental pricing bot using geo, image and text data,
+achieving an RMSE of 3500 on yearly rental prices 
+Utilized transfer learning for image models with PyTorch that determined the
+indoor and outdoor visual condition of properties 
+Created a end to end Data extraction, feature engineering and model
+inference system built with monitoring and MLOps standards. 
+Quantitative Real Estate Pricing System
+Quantitative Finance Thesis performing NLP analysis in determining the impact
+of Reddit sentiment on next day price movements of stocks 
+Extracted, validated and pre-processed 650,000 Reddit posts over a one-year
+time frame using scrapy
+Utilized SVMs, and the NLTK sentiment library, to extract average sentiment
+across daily stock mentions and regress on next day movement
+Reddit Sentiment Analysis Trading Bot 
+Education
+alexgirardet@gmail.com
++447444700439
+alexandergirardet
+M.A. Finance and Business
+University of Edinburgh
+Sep 2018 - May 2022
+Mathematical Programming in
+Advanced Analytics
+2:1
+Edinburgh, UK
+Data Science Bootcamp
+Le Wagon
+Sep 2020 - Dec 2020
+London, UK
+International Baccalaureate 
+Intenational School of Geneva
+Sep 2013 - May 2018
+Geneva, Switzerland
+37/45
+Developed a proprietary IOS database by developing a CNN model with aerial
+imagery, and productionized the model with airflow
+Created batch processing pipelines ingesting data from multiple sources to
+BigQuery.
+Extracted and validated data using Scrapy and Pydantic. Productionized
+pipeline using Docker, GitHub Actions and GCP VM
+Quantitative Investment Analyst
+Nexus Equities
+Aug 2022 - Dec 2022
+New York, USA
+Used DBT, Airflow and Looker to develop live monitoring dashboards that
+visually reflected cost inefficiencies in BigQuery jobs. Overseeing the
+processing of up to 1PB of data per day. Led to 30% BigQuery cost savings,
+through table clustering, partitioning and code optimisations 
+Creating meaningful KPIs for C-suite personnel in analysing the cost efficiency
+of BigQuery usage across all subsidiaries 
+Performed NLP analysis on commonly used production queries to detect Anti-
+SQL practices
+Data Engineer (Paid Apprentice)
+Richemont Group
+Nov 2022 - May 2022
+Geneva, Switzerland
+Swiss-American Citizen with Pre-settled status UK
+Certifications
+Google Professional Data Engineer
+Google Associate Cloud Engineer
+Data Engineer
+LiveScore Group
+May 2022-Present
+London, United Kingdom
+Designed and implemented a low-latency (<2s) data processing platform.,
+integrating Dataflow and Apache Kafka clusters, with an Automated quality
+testing, and monitoring suite.
+Implemented internal RAG system, with Langchain, Open Source Hosted LLM
+for inference.
+Crafted and maintained a systematic deployment pipeline using GitHub
+Actions, enabling streamlined and automated updates to production systems.
+Initiated and managed the incorporation of DBT into our data warehousing
+infrastructure, significantly improving the testability and reproducibility of our
+data marts.
+","MLOps Engineer, MLOps Team
+
+We have recently embarked on a transformative journey in the realm of advanced analytics, venturing into untapped territories across consumer engagement, supply chain, merchandising, and manufacturing domains. Our focus is on cultivating in-house expertise in areas such as personalization & recommendation, forecasting models, and trend analysis, aiming to elevate our innovation and customer satisfaction to unprecedented heights.
+
+As an MLOps Engineer, you will play a crucial role in designing, developing, and maintaining the infrastructure and platform essential for scaling our machine learning systems efficiently from experimentation to production. Your contribution will be pivotal in enabling and automating data-driven decision-making processes, utilizing cutting-edge techniques and ensuring the seamless integration of machine learning models into our operational workflows.
+
+Top of Form
+
+Bottom of Form
+
+Responsibilities:
+• Design, implement and maintain the ML platform and infrastructure required for ML systems to scale
+• Facilitate an efficient ML route to live from experiment to production.
+• Develop and deploy scalable tools and services to handle machine learning training and inference
+• Identify and evaluate new technologies to improve performance, maintainability, and reliability of ML systems
+• Apply software engineering rigor and best practices to machine learning, including CI/CD, automation, etc.
+• Support model development, with an emphasis on auditability, versioning, and data security
+• Communicate with product team and data scientists and machine learning engineers to build requirements and track progress
+
+Qualifications:
+• Experience building end-to-end systems as a Platform Engineer, DevOps Engineer
+• Strong software engineering skills in complex, multi-language systems
+• Fluency in Python
+• Experience working with Infrastructure as Code, e.g. Terraform
+• Experience working with cloud computing and database systems, such as Databricks
+• Experience building custom integrations between cloud-based systems using APIs
+• Experience developing with containerisation (e.g Docker) and orchestration Kubernetes in cloud computing environments
+• Familiarity with one or more data-oriented workflow orchestration frameworks (KubeFlow, Airflow, Argo, etc.)
+• Ability to translate business needs to technical requirements
+• Strong understanding of software testing, benchmarking, and continuous integration
+• Exposure to machine learning methodology and best practices
+
+Preferred but not must have:
+• Exposure to deep learning approaches and modeling frameworks (PyTorch, Tensorflow, Keras, etc.)
+
+Education & Experience:
+• 2–5 years experience building production-quality software.
+• Bachelors or Masters degree and/or equivalent professional experience
+
+About Pandora
+
+Established in 1982, Pandora designs, manufactures and markets hand-finished jewellery made from high-quality materials at affordable prices. Pandora’s products are available in more than 100 countries on six continents through more than 6,500 points of sale, including around 2,500 concept stores.
+
+Headquartered in Copenhagen, Denmark, Pandora employs 32,000 people worldwide and crafts its jewellery at two LEED certified facilities in Thailand, using only recycled silver and gold. The company plans to be carbon neutral by 2025 and has joined the Science Based Targets initiative to reduce emissions across its full value chain. Pandora is listed on the Nasdaq Copenhagen stock exchange and generated a revenue of DKK 28.1 billion in 2023. 
+
+At Pandora, we believe that creating an inclusive and diverse workplace and reflecting societal diversity in our customer engagement is essential to delivering on our company purpose: to give a voice to people’s loves. We dedicate ourselves to fostering, cultivating and preserving a culture of inclusion and diversity where everyone feels respected and valued.
+
+What can we offer you?
+
+You will be joining the team at our brand-new London Digital Hub, which is located a stone’s throw from London’s iconic Oxford Street, at the heart of the city. The London Hub is growing at a faster pace than ever, and your role will be part of the first waves of new, exciting talents we are introducing to the team. At the London Hub, we like to keep things flexible – this hybrid role is an example of that, with two days working from the office and three days working from home, so you can choose what works for you.
+
+Our commitment to unforgettable career progression is just the start. We offer a competitive rewards package that is second to none.
+
+Our generous benefits package includes:
+• A highly competitive salary with regular salary reviews
+• Generous bonus scheme
+• Private healthcare
+• Choice of lunch on us, delivered to you whenever you are in the office!
+• Early finish Fridays (weekends with Pandora start every Friday at 3pm!)
+• 55% employee discount
+• 25 days annual leave (plus bank holidays)
+• Buy/sell holiday options
+• Celebrate your birthday with a day off to celebrate!
+• Pandora Perks: access our exclusive online platform provided by Reward Gateway, where you’ll have access to: Discounts on retail brands, cinema tickets, holidays, gym memberships and more
+• Wellness Hub: videos to help you lead a healthy lifestyle
+• Employee Assistance Programme: a completely confidential, free, counselling phone line open 24/7, all year round
+• Recognition programme: celebrate and share achievements with the wider business
+• At Pandora we love a party! Especially at Christmas, when you will receive an extra special gift
+
+If you are looking for a new challenge, come and craft the incredible with us",4.25,5,"produce the assessment_answer. We need to compare the skills listed on the resume with the qualifications and responsibilities outlined in the job description.
+
+The job description for the MLOps Engineer position requires a candidate with strong software engineering skills, fluency in Python, experience with Infrastructure as Code (e.g., Terraform), cloud computing and database systems (e.g., Databricks), containerization (e.g., Docker), orchestration (e.g., Kubernetes), and familiarity with data-oriented workflow orchestration frameworks (e.g., KubeFlow, Airflow, Argo, etc.). Additionally, experience with machine learning training and inference, CI/CD, automation, and a strong understanding of software testing, benchmarking, and continuous integration are important. Preferred skills include exposure to deep learning approaches and modeling frameworks (PyTorch, Tensorflow, Keras, etc.).
+
+The resume lists skills such as Python, BigQuery, Docker, SQL/NoSQL, Scrapy, PyTorch, Git, Looker, Java, dbt, Kafka, Airflow, Vertex AI, GitHub actions, and experience with NLP and time series analysis. The candidate has also worked on projects that involve data extraction, feature engineering, model inference, and has experience with MLOps standards. They have developed monitoring dashboards and have experience with BigQuery cost optimizations, which indicates an understanding of cloud computing and database systems. The candidate has also mentioned the use of Docker, GitHub Actions, and Airflow, which aligns with the job description's requirements for containerization and orchestration.
+
+Based on the skills listed on the resume and the requirements of the job description, the candidate appears to have relevant experience and skills for the MLOps Engineer position.",5,"produce the assessment_answer. We need to compare the educational qualifications listed on the resume with the educational requirements specified in the job description.
+
+The job description states that the candidate should have a ""Bachelors or Masters degree and/or equivalent professional experience."" The resume lists the following educational qualifications:
+
+1. M.A. Finance and Business from the University of Edinburgh with a 2:1 grade, completed between September 2018 and May 2022.
+2. Data Science Bootcamp at Le Wagon from September 2020 to December 2020.
+3. International Baccalaureate from the International School of Geneva with a score of 37/45, completed between September 2013 and May 2018.
+
+The M.A. in Finance and Business is a master's degree, which meets the job description's requirement for a Bachelor's or Master's degree. Additionally, the Data Science Bootcamp, while not a formal degree, provides specialized training that is relevant to the field. The International Baccalaureate is a high school qualification and is not directly relevant to the job's educational requirements but shows a strong foundational education.
+
+Given that the resume lists a Master's degree in a relevant field (Finance and Business), which exceeds the minimum requirement of a Bachelor's degree, and includes additional data science training, the education experience on the resume matches the job description's desired educational status.",3,"produce the assessment_answer. We need to consider the cultural aspects mentioned in the job description and see if the resume reflects similar values, interests, or experiences that align with the company's culture.
+
+The job description emphasizes a transformative journey in advanced analytics, innovation, customer satisfaction, and a focus on personalization and recommendation. It also highlights the importance of an inclusive and diverse workplace, societal diversity, and a commitment to environmental sustainability, aiming to be carbon neutral by 2025.
+
+The resume does not explicitly mention any direct involvement or interest in diversity, inclusivity, or environmental sustainability initiatives. However, the candidate has experience in advanced analytics, machine learning, and data engineering, which aligns with the technical and innovative aspects of the job description.
+
+The job description also mentions a new London Digital Hub with a flexible, hybrid work environment and a focus on work-life balance, as indicated by benefits like early finish Fridays and a birthday day off. The resume does not provide information on the candidate's preferences or experiences with flexible work environments or work-life balance initiatives.
+
+Given the information provided, the resume suggests a strong technical and innovative fit but does not provide enough information to assess a cultural fit regarding diversity, inclusivity, sustainability, and work-life balance preferences.",4,"${produce the assessment_answer}. We will evaluate the resume based on the following criteria:
+
+1. Professional Language: Assess if the language used is appropriate for a professional setting and free of slang, jargon that is too technical without context, or casual phrases.
+2. Clarity and Conciseness: Determine if the resume is clear, to the point, and avoids unnecessary verbosity.
+3. Relevance of Information: Check if the information provided is relevant to the job role of a Data Engineer.
+4. Formatting and Structure: Look at the overall layout, organization, and formatting to ensure it is easy to read and follows a logical structure.
+5. Contact Information and Personal Details: Verify that the contact information is professional and personal details are appropriate."
+6,"English
+French
+Alexander Girardet
+Data Engineer
+Skills
+Python 
+BigQuery 
+Docker 
+SQL / NoSQL
+Scrapy 
+Langchain
+PyTorch 
+Git
+Looker
+Java
+dbt
+Kafka
+Airflow
+Vertex AI 
+GitHub actions 
+Time Series Analysis 
+NLP Analysis
+Apache Dataflow
+Languages
+Work Experience
+Projects
+Developed a predictive UK rental pricing bot using geo, image and text data,
+achieving an RMSE of 3500 on yearly rental prices 
+Utilized transfer learning for image models with PyTorch that determined the
+indoor and outdoor visual condition of properties 
+Created a end to end Data extraction, feature engineering and model
+inference system built with monitoring and MLOps standards. 
+Quantitative Real Estate Pricing System
+Quantitative Finance Thesis performing NLP analysis in determining the impact
+of Reddit sentiment on next day price movements of stocks 
+Extracted, validated and pre-processed 650,000 Reddit posts over a one-year
+time frame using scrapy
+Utilized SVMs, and the NLTK sentiment library, to extract average sentiment
+across daily stock mentions and regress on next day movement
+Reddit Sentiment Analysis Trading Bot 
+Education
+alexgirardet@gmail.com
++447444700439
+alexandergirardet
+M.A. Finance and Business
+University of Edinburgh
+Sep 2018 - May 2022
+Mathematical Programming in
+Advanced Analytics
+2:1
+Edinburgh, UK
+Data Science Bootcamp
+Le Wagon
+Sep 2020 - Dec 2020
+London, UK
+International Baccalaureate 
+Intenational School of Geneva
+Sep 2013 - May 2018
+Geneva, Switzerland
+37/45
+Developed a proprietary IOS database by developing a CNN model with aerial
+imagery, and productionized the model with airflow
+Created batch processing pipelines ingesting data from multiple sources to
+BigQuery.
+Extracted and validated data using Scrapy and Pydantic. Productionized
+pipeline using Docker, GitHub Actions and GCP VM
+Quantitative Investment Analyst
+Nexus Equities
+Aug 2022 - Dec 2022
+New York, USA
+Used DBT, Airflow and Looker to develop live monitoring dashboards that
+visually reflected cost inefficiencies in BigQuery jobs. Overseeing the
+processing of up to 1PB of data per day. Led to 30% BigQuery cost savings,
+through table clustering, partitioning and code optimisations 
+Creating meaningful KPIs for C-suite personnel in analysing the cost efficiency
+of BigQuery usage across all subsidiaries 
+Performed NLP analysis on commonly used production queries to detect Anti-
+SQL practices
+Data Engineer (Paid Apprentice)
+Richemont Group
+Nov 2022 - May 2022
+Geneva, Switzerland
+Swiss-American Citizen with Pre-settled status UK
+Certifications
+Google Professional Data Engineer
+Google Associate Cloud Engineer
+Data Engineer
+LiveScore Group
+May 2022-Present
+London, United Kingdom
+Designed and implemented a low-latency (<2s) data processing platform.,
+integrating Dataflow and Apache Kafka clusters, with an Automated quality
+testing, and monitoring suite.
+Implemented internal RAG system, with Langchain, Open Source Hosted LLM
+for inference.
+Crafted and maintained a systematic deployment pipeline using GitHub
+Actions, enabling streamlined and automated updates to production systems.
+Initiated and managed the incorporation of DBT into our data warehousing
+infrastructure, significantly improving the testability and reproducibility of our
+data marts.
+","Full job description
+Do you want to influence the lives of millions of people every day?
+
+Do you want to be part of a growing digital publishing company that will become one of the largest disseminators of knowledge in the world?
+
+If you answered yes to those questions, you may be the person we're searching for.
+
+We create original infotainment content published online to multiple digital assets in multiple languages. In a few years, we've accrued over a billion views and 25 million+ subscribers. We're perfectly positioned to become largest disseminator of knowledge in the world. In fact, we're probably one of the largest already. Our platforms can be viewed here: www.beamazed.media
+
+We need a software engineer to work in our growing, dynamic team. We are building internal products to help our team perform, execute and excel at their job. These tools integrate with various social media APIs to help us track and extract data from our content which help to inform our future content pipeline as well as optimise our current library.
+
+We are looking for an entrepreneurial mindset to optimise our company’s internal and external performance through building internal products. This will span from building internal products for our teams’ workflows to implementing OpenAI and image generation web APIs.
+
+We pride ourselves on bringing innovation, creativity and experience to everything that we do.
+
+You must be organised to ensure deadlines are met, and willing to take on new challenges. Our work is seen by millions of people each day all around the world, so your work will have a massive impact. You should be looking for more than just a job. You should aspire to lead and own a media company one day as this position holds massive future potential for growth.
+
+Your role will involve:
+
+Developing our web application written in Javascript and NextJS;
+Implementing backend machine learning and data services, and integrating them with our web application.
+Suggesting and leading internal tools for our team to use that will aid them in performing their job efficiently;
+Problem solving, liaising and communicating with the team ways in which technology can be applied intelligently to our work pipeline
+Fixing any errors that arise with our Contentful CMS
+Ideal candidates should demonstrate:
+
+Creative problem solving skills, be open-minded and willing to collaborate with developers and other members of staff.
+Communication skills to explain complicated solutions to all levels within a business.
+A self-starter attitude with a diverse array of interests and a thirst for knowledge
+A creative spark with a proven ability to think outside of the box
+You have the experience and ability to document requirements and specifications.
+You MUST have the following skills:
+
+Production level Python, including building web-based backends and APIs
+Building and architecting web-apps using suitable frameworks
+Designing, implementing, and deploying full-stack web applications
+Quantitative degree from a top university
+The following is DESIRABLE, not essential:
+
+Experience with Node.JS to a production level
+Familiarity with various machine learning APIs
+An understanding of machine learning techniques
+Benefits:
+
+Making a serious impact from day one. We're an agile company at the forefront of digital content consumption, and your work will impact millions of people per day.
+A great office located in Shoreditch right by Old Street Roundabout.
+Competitive salary based on skills and experience
+5 days per week, 9am-6pm with performance-related bonuses
+Social office environment located right by silicon roundabout. Dog friendly, with free coffee/tea and regularly scheduled events with other companies sharing our building.
+Significant opportunities for growth. We are looking for a senior developer to become a key and pivotal part of our team, ample to grow this segment of our company and lead others in the future.
+Job Types: Full-time, Permanent
+
+Salary: From £70,000.00 per year
+
+Benefits:
+
+Casual dress
+Company events
+Company pension
+Cycle to work scheme
+Flexitime
+Work from home
+Schedule:
+
+8 hour shift
+Monday to Friday
+Overtime
+Supplemental pay types:
+
+Bonus scheme
+Performance bonus
+Education:
+
+Bachelor's (preferred)
+Work authorisation:
+
+United Kingdom (required)
+Ability to Commute:
+
+London (required)
+Ability to Relocate:
+
+London: Relocate before starting work (required)
+Work Location: Hybrid remote in London",4.25,5,"produce the assessment_answer. We need to compare the skills listed on the resume with the skills required in the job description.
+
+The job description requires the following skills:
+- Production level Python, including building web-based backends and APIs
+- Building and architecting web-apps using suitable frameworks
+- Designing, implementing, and deploying full-stack web applications
+- Quantitative degree from a top university
+- Experience with Node.JS to a production level (desirable)
+- Familiarity with various machine learning APIs (desirable)
+- An understanding of machine learning techniques (desirable)
+
+Now, let's look at the skills listed on the resume:
+- Python
+- BigQuery
+- Docker
+- SQL / NoSQL
+- Scrapy
+- PyTorch
+- Git
+- Looker
+- Java
+- dbt
+- Kafka
+- Airflow
+- Vertex AI
+- GitHub actions
+- Time Series Analysis
+- NLP Analysis
+- Apache Dataflow
+
+The resume shows extensive experience with Python, which is a primary requirement for the job. The candidate also has experience with Docker, SQL/NoSQL, Git, and other technologies that are relevant to building and deploying web applications. The resume also indicates experience with machine learning techniques and APIs, such as PyTorch and NLP Analysis, which aligns with the desirable skills mentioned in the job description.
+
+Given the strong match between the skills on the resume and the job requirements, we can rate the relevance of the skills on the resume to the job description.",5,"produce the assessment_answer. We need to compare the educational qualifications listed on the resume with the educational requirements specified in the job description.
+
+The job description states that a ""Quantitative degree from a top university"" is required. The resume lists an ""M.A. Finance and Business from the University of Edinburgh"" and a ""Data Science Bootcamp from Le Wagon."" The University of Edinburgh is generally considered a reputable and well-ranked institution, which could be interpreted as meeting the ""top university"" criterion. Additionally, the Master's degree in Finance and Business is a quantitative field, which aligns with the job description's requirement for a quantitative degree.
+
+Furthermore, the job description lists ""Bachelor's (preferred)"" under education, which the candidate exceeds by having a Master's degree. The additional Data Science Bootcamp provides further relevant education in a field closely related to the job's technical requirements.",3,"produce the assessment_answer. We need to consider the cultural aspects mentioned in the job description and see if the resume reflects similar values, interests, and work style.
+
+The job description emphasizes an entrepreneurial mindset, creativity, innovation, and a willingness to take on new challenges. It also mentions the importance of being organized, meeting deadlines, and having a significant impact on the company's success. The candidate should aspire to lead and own a media company one day, indicating that the company values ambition and leadership potential.
+
+Looking at the resume, the candidate has demonstrated an ability to work on innovative projects, such as developing predictive models and implementing machine learning systems. The resume also shows that the candidate has experience with data engineering and has worked in roles that require organization and meeting deadlines, such as overseeing the processing of large amounts of data and creating monitoring dashboards.
+
+The resume does not explicitly mention entrepreneurial experiences or aspirations to lead and own a company. However, the candidate has worked on projects from end to end, which could imply a proactive and ownership-driven approach. The resume also does not provide information on the candidate's personality or interests outside of their technical skills and work experience, which makes it difficult to fully assess cultural fit in terms of creativity and a diverse array of interests.
+
+Based on the information provided, the resume suggests a moderate level of cultural match with the job description, as the candidate shows signs of innovation, problem-solving, and organization but does not explicitly reflect the entrepreneurial and leadership qualities highlighted in the job description.",4,"${produce the assessment_answer}. We will evaluate the resume based on the following criteria:
+
+1. Professional Language: Assess if the language used is appropriate for a professional setting and free of slang, jargon that is too technical without context, or casual phrases.
+2. Clarity and Conciseness: Determine if the resume is clear, to the point, and avoids unnecessary verbosity.
+3. Relevance of Information: Check if the information provided is relevant to the job role of a Data Engineer.
+4. Formatting and Structure: Look at the overall layout, organization, and formatting to ensure it is easy to read and follows a logical structure.
+5. Contact Information and Personal Details: Verify that the contact information is professional and personal details are appropriate."
+7,"English
+French
+Alexander Girardet
+Data Engineer
+Skills
+Python 
+BigQuery 
+Docker 
+SQL / NoSQL
+Scrapy 
+Langchain
+PyTorch 
+Git
+Looker
+Java
+dbt
+Kafka
+Airflow
+Vertex AI 
+GitHub actions 
+Time Series Analysis 
+NLP Analysis
+Apache Dataflow
+Languages
+Work Experience
+Projects
+Developed a predictive UK rental pricing bot using geo, image and text data,
+achieving an RMSE of 3500 on yearly rental prices 
+Utilized transfer learning for image models with PyTorch that determined the
+indoor and outdoor visual condition of properties 
+Created a end to end Data extraction, feature engineering and model
+inference system built with monitoring and MLOps standards. 
+Quantitative Real Estate Pricing System
+Quantitative Finance Thesis performing NLP analysis in determining the impact
+of Reddit sentiment on next day price movements of stocks 
+Extracted, validated and pre-processed 650,000 Reddit posts over a one-year
+time frame using scrapy
+Utilized SVMs, and the NLTK sentiment library, to extract average sentiment
+across daily stock mentions and regress on next day movement
+Reddit Sentiment Analysis Trading Bot 
+Education
+alexgirardet@gmail.com
++447444700439
+alexandergirardet
+M.A. Finance and Business
+University of Edinburgh
+Sep 2018 - May 2022
+Mathematical Programming in
+Advanced Analytics
+2:1
+Edinburgh, UK
+Data Science Bootcamp
+Le Wagon
+Sep 2020 - Dec 2020
+London, UK
+International Baccalaureate 
+Intenational School of Geneva
+Sep 2013 - May 2018
+Geneva, Switzerland
+37/45
+Developed a proprietary IOS database by developing a CNN model with aerial
+imagery, and productionized the model with airflow
+Created batch processing pipelines ingesting data from multiple sources to
+BigQuery.
+Extracted and validated data using Scrapy and Pydantic. Productionized
+pipeline using Docker, GitHub Actions and GCP VM
+Quantitative Investment Analyst
+Nexus Equities
+Aug 2022 - Dec 2022
+New York, USA
+Used DBT, Airflow and Looker to develop live monitoring dashboards that
+visually reflected cost inefficiencies in BigQuery jobs. Overseeing the
+processing of up to 1PB of data per day. Led to 30% BigQuery cost savings,
+through table clustering, partitioning and code optimisations 
+Creating meaningful KPIs for C-suite personnel in analysing the cost efficiency
+of BigQuery usage across all subsidiaries 
+Performed NLP analysis on commonly used production queries to detect Anti-
+SQL practices
+Data Engineer (Paid Apprentice)
+Richemont Group
+Nov 2022 - May 2022
+Geneva, Switzerland
+Swiss-American Citizen with Pre-settled status UK
+Certifications
+Google Professional Data Engineer
+Google Associate Cloud Engineer
+Data Engineer
+LiveScore Group
+May 2022-Present
+London, United Kingdom
+Designed and implemented a low-latency (<2s) data processing platform.,
+integrating Dataflow and Apache Kafka clusters, with an Automated quality
+testing, and monitoring suite.
+Implemented internal RAG system, with Langchain, Open Source Hosted LLM
+for inference.
+Crafted and maintained a systematic deployment pipeline using GitHub
+Actions, enabling streamlined and automated updates to production systems.
+Initiated and managed the incorporation of DBT into our data warehousing
+infrastructure, significantly improving the testability and reproducibility of our
+data marts.
+","Full job description
+Company Description
+
+In January 2023, Yieldify was acquired by Epsilon (part of the Publicis Group). The Yieldify platform will now increase performance and benefits over time as it is integrated with Epsilon’s industry-leading CORE ID. As part of this new era for Yieldify, we are growing our teams to address our core markets in North America, Europe, Australia and Southeast Asia. Yieldify needs talented people who want a career-making opportunity, are performance-driven, and thrive in a dynamic culture of openness, collaboration and innovation.
+
+Yieldify is a fast-growing leader in website personalization with over 1,000 customers worldwide. Top consumer brands like Adidas, Coach, Lacoste, L'Oréal and The North Face rely on Yieldify’s platform and services to make personalized ecommerce experiences easy, scalable and profitable. We do this by combining our end-to-end service and proprietary technology with deep industry expertise to deliver significant onsite conversion and revenue impact.
+
+
+Job Description
+
+We’re looking for a Full-stack Software Engineer to join our London team as part of the Experiences Squad - we want someone who thrives in a fast-paced environment, someone who wants to make a positive impact to their environment and someone with a mentality of self-growth and continuously strives to learn new things.
+
+Our Engineering team is a high performing, highly motivated and tech-enthusiastic team based in London. We ship code into production on a weekly basis; fostering a continuous delivery mentality, paired with CI systems, enables us to release new features to customers regularly.
+
+As an engineer in the Experiences Squad, you will bring a first-class UX to our Yieldify Conversion Platform increasing Yieldify’s reach. The Experiences Squad’s responsibility spans across several features and state of the art codebases such as our Platform authentication, Yieldify Experience Builder and Renderer.
+
+
+Your code will be used by thousands of large ecommerce brands, from digital marketers to CXOs, to configure and analyse personalized website experiences. To date over 180,000 experiences have been created and rendered via the Yieldify Conversion Platform reaching 400 million+ shoppers across the web. As part of the Platform squad, you will extend Yieldify’s reach even further!
+
+You’ll love this role if:
+
+You thrive in agile environments.
+You are team spirited and look to actively contribute to the shaping of product, processes and share your knowledge with the people around you.
+You love variety - our engineers rotate teams so that we can learn from each other.
+You are always striving to improve yourself – we're looking for engineers who can be happy working across many layers on Full stack services.
+In this role you will also:
+
+Research, test and implement new technologies, software and services.
+Communicate with stakeholders and Product team.
+Plan, communicate and execute the implementation of new product features.
+Engage in inter-team discussion and collaboration.
+Analyse our data to produce valuable insights.
+We’re looking for someone with:
+
+3+ years of commercial software engineering experience.
+Experience with Node.js & TypeScript.
+Experience building REST APIs.
+Past exposure to scrum/agile software development processes.
+Preferred:
+Experience with React.
+Our tech stack includes:
+
+Typescript both front-end & back-end (with Node.js)
+We use Angular & React with Tailwind
+AWS (Lambda, SNS/SQS, Kinesis, S3, DynamoDB, Redis)
+Postgres
+Jenkins
+Docker
+Kubernetes
+
+Additional Information
+
+Epsilon always puts people first. Everything we do is done as a team, with integrity and accountability. We focus on what works and what’s right, not what’s easy and accepted. When you’re one of us, you run with the best. You’re part of a company with industry-leading technology, with the opportunity to work on projects for some of the world’s biggest brands. Our people have the talent, tools and passion to do epic things together—for our clients, for consumers and for our community.
+
+Great People Deserve Great Benefits We know that we have some of the brightest and most talented employees in the world, and we believe in rewarding them accordingly. If you work here, expect competitive compensation, a great benefits package and endless opportunities to advance your career.
+
+We offer hybrid working opportunities, with our office space located in the Iconic Television Centre, White City.
+
+As part of our dedication to enhance our inclusive and diverse workforce, Epsilon is committed to equal access to opportunity for people without regard to race, age, sex, disability, neurodiversity, sexual orientation, gender identity, pregnancy and maternity, marriage and civil partnership or religion or belief. We are committed to providing reasonable adjustments for candidates in our application process
+
+#LI-TF1
+
+REF221712K
+
+",3.5,2,"produce the assessment_answer. We need to compare the skills listed on the resume with the skills and technologies mentioned in the job description. The job description requires a Full-stack Software Engineer with experience in Node.js & TypeScript, and familiarity with building REST APIs. It also mentions a preference for experience with React and knowledge of various AWS services, Postgres, Jenkins, Docker, and Kubernetes.
+
+The resume lists skills such as Python, BigQuery, Docker, SQL/NoSQL, Scrapy, PyTorch, Git, Looker, Java, dbt, Kafka, Airflow, Vertex AI, GitHub actions, Time Series Analysis, NLP Analysis, and Apache Dataflow. While Docker is mentioned in both the resume and the job description, the resume does not explicitly mention Node.js, TypeScript, or React, which are key requirements for the job. Additionally, the resume does not indicate experience with REST APIs, which is another important aspect of the job description.
+
+Given the mismatch between the key skills required by the job description and the skills presented in the resume, we can assess the relevance of the skills on the resume to the job description.",5,"produce the assessment_answer. We need to compare the educational qualifications listed on the resume with the educational requirements or preferences mentioned in the job description.
+
+The job description does not specify any particular educational requirements or preferences. It focuses more on the candidate's commercial software engineering experience, knowledge of specific technologies, and experience with agile processes.
+
+The resume lists a Master's degree in Finance and Business from the University of Edinburgh, a Data Science Bootcamp from Le Wagon, and an International Baccalaureate from the International School of Geneva. While the resume does not specifically list a degree in computer science or software engineering, the candidate has demonstrated relevant technical skills and experience through the Data Science Bootcamp and work experience, which may be considered equivalent or even superior to formal education in the field.
+
+Given that the job description does not specify educational requirements and the resume shows a strong foundation in relevant technical skills and experience, the education experience on the resume can be considered to match the job description's desired educational status.",3,"produce the assessment_answer. We need to consider the cultural aspects mentioned in the job description and see if the resume reflects similar values or experiences. The job description emphasizes a dynamic culture of openness, collaboration, and innovation. It also mentions the importance of being performance-driven, thriving in a fast-paced environment, and having a mentality of self-growth and continuous learning.
+
+Looking at the resume, we can see evidence of a fast-paced work environment and a focus on innovation through the development of various data engineering projects and the use of modern technologies. The candidate has experience with agile methodologies, as indicated by the use of GitHub actions and the implementation of a systematic deployment pipeline, which suggests a familiarity with continuous delivery practices. The resume also shows that the candidate has worked in collaborative settings, as seen in the project descriptions and the role as a data engineer where they led initiatives that resulted in significant cost savings.
+
+However, the resume does not explicitly mention personal attributes related to openness or collaboration, nor does it provide examples of contributing to a team or sharing knowledge, which are cultural aspects highlighted in the job description. While the technical skills and experiences listed on the resume are impressive, they do not provide direct evidence of a cultural match based on the job description's emphasis on team spirit and active contribution to shaping products and processes.",4,"${produce the assessment_answer}. We will evaluate the resume based on the following criteria:
+
+1. Professional Language: Assess if the language used is appropriate for a professional setting and free of slang, jargon that is too technical without context, or casual phrases.
+2. Clarity and Conciseness: Determine if the resume is clear, to the point, and avoids unnecessary verbosity.
+3. Relevance of Information: Check if the information provided is relevant to the job role of a Data Engineer.
+4. Formatting and Structure: Look at the overall layout, organization, and formatting to ensure it is easy to read and follows a logical structure.
+5. Contact Information and Personal Details: Verify that the contact information is professional and personal details are appropriate."
+8,"English
+French
+Alexander Girardet
+Data Engineer
+Skills
+Python 
+BigQuery 
+Docker 
+SQL / NoSQL
+Scrapy 
+Langchain
+PyTorch 
+Git
+Looker
+Java
+dbt
+Kafka
+Airflow
+Vertex AI 
+GitHub actions 
+Time Series Analysis 
+NLP Analysis
+Apache Dataflow
+Languages
+Work Experience
+Projects
+Developed a predictive UK rental pricing bot using geo, image and text data,
+achieving an RMSE of 3500 on yearly rental prices 
+Utilized transfer learning for image models with PyTorch that determined the
+indoor and outdoor visual condition of properties 
+Created a end to end Data extraction, feature engineering and model
+inference system built with monitoring and MLOps standards. 
+Quantitative Real Estate Pricing System
+Quantitative Finance Thesis performing NLP analysis in determining the impact
+of Reddit sentiment on next day price movements of stocks 
+Extracted, validated and pre-processed 650,000 Reddit posts over a one-year
+time frame using scrapy
+Utilized SVMs, and the NLTK sentiment library, to extract average sentiment
+across daily stock mentions and regress on next day movement
+Reddit Sentiment Analysis Trading Bot 
+Education
+alexgirardet@gmail.com
++447444700439
+alexandergirardet
+M.A. Finance and Business
+University of Edinburgh
+Sep 2018 - May 2022
+Mathematical Programming in
+Advanced Analytics
+2:1
+Edinburgh, UK
+Data Science Bootcamp
+Le Wagon
+Sep 2020 - Dec 2020
+London, UK
+International Baccalaureate 
+Intenational School of Geneva
+Sep 2013 - May 2018
+Geneva, Switzerland
+37/45
+Developed a proprietary IOS database by developing a CNN model with aerial
+imagery, and productionized the model with airflow
+Created batch processing pipelines ingesting data from multiple sources to
+BigQuery.
+Extracted and validated data using Scrapy and Pydantic. Productionized
+pipeline using Docker, GitHub Actions and GCP VM
+Quantitative Investment Analyst
+Nexus Equities
+Aug 2022 - Dec 2022
+New York, USA
+Used DBT, Airflow and Looker to develop live monitoring dashboards that
+visually reflected cost inefficiencies in BigQuery jobs. Overseeing the
+processing of up to 1PB of data per day. Led to 30% BigQuery cost savings,
+through table clustering, partitioning and code optimisations 
+Creating meaningful KPIs for C-suite personnel in analysing the cost efficiency
+of BigQuery usage across all subsidiaries 
+Performed NLP analysis on commonly used production queries to detect Anti-
+SQL practices
+Data Engineer (Paid Apprentice)
+Richemont Group
+Nov 2022 - May 2022
+Geneva, Switzerland
+Swiss-American Citizen with Pre-settled status UK
+Certifications
+Google Professional Data Engineer
+Google Associate Cloud Engineer
+Data Engineer
+LiveScore Group
+May 2022-Present
+London, United Kingdom
+Designed and implemented a low-latency (<2s) data processing platform.,
+integrating Dataflow and Apache Kafka clusters, with an Automated quality
+testing, and monitoring suite.
+Implemented internal RAG system, with Langchain, Open Source Hosted LLM
+for inference.
+Crafted and maintained a systematic deployment pipeline using GitHub
+Actions, enabling streamlined and automated updates to production systems.
+Initiated and managed the incorporation of DBT into our data warehousing
+infrastructure, significantly improving the testability and reproducibility of our
+data marts.
+","Full job description
+About the role
+As an Android Software Development Engineer, you’ll be working in an agile team of industry leading engineers upon Tesco’s customer facing Android application. Working with Product Managers, you will be responsible for the future direction of the products that we build, solving problems and developing new features through quality, scalable, performant and maintainable technical solutions. The solutions that you will be responsible for will have a global reach, impacting millions of customers.
+
+You’ll be a passionate, pragmatic Android Software Development Engineer with an inquisitive mind who is motivated to make change for the better and most importantly put our customer first. You’ll enjoy working as part of a team and be a keen problem solver. Comfortable with modern engineering practices and mobile development tooling and technologies you’ll use innovation to improve the customer experience and efficiency of engineering teams.
+
+You will be responsible for
+We love to work with smart people who have a strong sense of ownership and strong engineering mindset. You provide mobile perspective and context for technology choices. You’re up to the challenge of device and mobile network limitations, device fragmentation, and other mobile development curve balls. You are motivated to tackle ambiguous situations with new technologies to rapidly produce prototypes. You outline paths from prototype to product. You are a technical leader for your team. You contribute to the professional development of colleagues, improving their technical knowledge and the engineering practices on your team.
+
+You will need
+We are looking for people who have a passion for Technology. You will likely have made open source contributions and have a Github account. You will demonstrate experience of different platforms and technologies. We expect to see some or all of the following:
+
+Experience architecting complex mobile applications
+5+ years of commercial software development experience in Java/Kotlin
+BS/MS in Computer Science or equivalent
+Firm understanding of software development principles, capabilities and limitations of mobile platforms
+Passion for mobile development. We would love to hear about apps you’ve developed.
+Understanding and exposure to integrating REST API endpoints
+Strong experience and understanding of industry standard mobile accessibility
+Experience in full development life cycle; design, coding, test, build, QA, deployment and maintenance
+Exposure to the DevOps model
+Experience in Lean and Agile environments and understanding of principles behind methodologies such as: BDD, ATDD and TDD
+A strong team player with the ability to influence and lead stakeholders when necessary
+Demonstrable ability to self-manage, be proactive, take ownership, build relationships and drive solutions through from inception to production
+#LI-SN1
+
+About us
+Our vision at Tesco is to become every customer's favourite way to shop, whether they are at home or out on the move. Our core purpose is ‘Serving our customers, communities and planet a little better every day’. Serving means more than a transactional relationship with our customers. It means acting as a responsible and sustainable business for all stakeholders, for the communities we are part of and for the planet.
+
+We are proud to have an inclusive culture at Tesco where everyone truly feels able to be themselves. At Tesco, we not only celebrate diversity, but recognise the value and opportunity it brings. We're committed to creating a workplace where differences are valued, and make sure that all colleagues are given the same opportunities. We’re proud to have been accredited Disability Confident Leader and we’re committed to providing a fully inclusive and accessible recruitment process. For further information on the accessibility support we can offer, please click here.
+
+We’re a big business and we can offer a range of diverse full-time & part-time working patterns across our many business areas, which means that we can find something that works for you. We work in a more blended pattern - combining office and remote working. Our offices will continue to be where we connect, collaborate and innovate. If you are applying internally, please speak to the Hiring Manager about how this can work for you - Everyone is welcome at Tesco.
+
+What’s in it for you
+We’re all about the little helps. That’s why we give our wonderful colleagues bags of benefits. Including wellbeing services, an award-winning pension scheme and much, much more, our colleague reward package keeps on giving. And helps make every day a little better for you and your family. These include but are not limited to:
+
+Annual bonus scheme of up to 20% of base salary
+Holiday starting at 25 days plus a personal day (plus Bank holidays)
+Buy holiday salary sacrifice scheme (for salaried roles)
+Private medical insurance
+Retirement savings plan - save between 4% and 7.5% and Tesco will match your contribution
+Life Assurance - 5 x contractual pay
+26 weeks maternity and adoption leave (after 1 years’ service) at full pay, followed by 13 weeks of Statutory Maternity Pay or Statutory Adoption Pay, we also offer 4 weeks fully paid paternity leave
+The right to request flexible working from your first day with us
+Free 24/7 virtual GP service, Employee Assistance Programme (EAP) for you and your family, free access to a range of experts to support your mental wellbeing
+A Colleague Clubcard for you & a family member (after 3 months of service), giving you access to lots of discounts in-store & online
+Great colleague deals and discounts, saving you money on everyday purchases, eating out and utility bills for the home
+Access to our colleague networks providing a space for colleagues to come together from a range of backgrounds. For more information about our colleague networks please click here
+Opportunities to get on - take advantage of our ongoing learning opportunities and award-winning training, to help you achieve the job and career you want
+Click Here to read more about the full range of benefits we have available for our colleagues",2.5,1,"produce the assessment_answer. We need to compare the skills listed on the resume with the skills and experiences required by the job description.
+
+The job description is for an Android Software Development Engineer, which requires experience in mobile application development, specifically with Java/Kotlin, understanding of mobile development challenges, experience with REST API endpoints, and familiarity with the full development lifecycle. It also mentions the importance of having a strong understanding of software development principles and mobile platforms, as well as experience in Lean and Agile environments.
+
+The resume lists skills and experiences primarily related to data engineering, including Python, BigQuery, Docker, SQL/NoSQL, Kafka, Airflow, and experience with NLP and time series analysis. While the candidate appears to have strong data engineering skills, there is no mention of Android development, Java/Kotlin, or mobile application development experience, which are critical for the job in question.
+
+Given the lack of relevant mobile development skills and experience on the resume, we can conclude that the skills listed on the resume are not relevant to the job description for an Android Software Development Engineer.",2,"produce the assessment_answer. We need to compare the educational qualifications listed on the resume with the educational requirements mentioned in the job description. The job description specifies a preference for candidates with a BS/MS in Computer Science or equivalent. The resume lists an M.A. in Finance and Business from the University of Edinburgh and a Data Science Bootcamp from Le Wagon. While the resume shows a strong educational background, it does not specifically mention a degree in Computer Science or a directly related field. However, the Data Science Bootcamp may have covered some relevant technical skills. Given this information, we must determine how well the candidate's education aligns with the desired educational status for the role of Android Software Development Engineer.",3,"produce the assessment_answer. We need to consider the cultural aspects mentioned in the job description and see if the resume reflects similar values, work ethic, and team orientation.
+
+The job description emphasizes a culture of:
+- Putting the customer first
+- Being a passionate, pragmatic engineer with an inquisitive mind
+- Enjoying working as part of a team
+- Being a keen problem solver
+- Having a strong sense of ownership and strong engineering mindset
+- Being proactive and taking ownership
+- Building relationships and driving solutions
+- Valuing diversity and inclusivity
+- Being open to learning and personal development
+
+Now, let's analyze the resume to see if it reflects these cultural values:
+
+- The resume shows a strong technical background and a variety of projects that indicate problem-solving skills and engineering mindset.
+- The candidate has experience working in teams, as seen in the work experience section, which suggests they enjoy and value teamwork.
+- There is evidence of taking ownership and being proactive, as the candidate has led projects that resulted in cost savings and improved efficiency.
+- The resume does not explicitly mention customer focus, but the projects listed imply a user-oriented approach to development.
+- There is no direct mention of diversity and inclusivity or contributions to open source, which are part of the cultural values of the job description.
+- The resume does not provide information on the candidate's willingness to learn and develop, although the variety of roles and technologies used could imply a commitment to personal development.",4,"${produce the assessment_answer}. We will evaluate the resume based on the following criteria:
+
+1. Professional Language: Assess if the language used is appropriate for a professional setting and free of slang, jargon that is too technical without context, or casual phrases.
+2. Clarity and Conciseness: Determine if the resume is clear, to the point, and avoids unnecessary verbosity.
+3. Relevance of Information: Check if the information provided is relevant to the job role of a Data Engineer.
+4. Formatting and Structure: Look at the overall layout, organization, and formatting to ensure it is easy to read and follows a logical structure.
+5. Contact Information and Personal Details: Verify that the contact information is professional and personal details are appropriate."
